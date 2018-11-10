@@ -1,0 +1,128 @@
+@import 'den-vars';
+//show subject relevant content
+body.uiux .dev,
+body.uiux .gd,
+body.gd.dev,
+body.gd .uiux,
+body.dev .gd,
+body.dev .uiux,{
+	display: none;
+}
+body.dev .dev,
+body.uiux .uiux,
+body.gd .gd{
+	display: initial;
+}
+
+
+#main-header{
+	background: color('teal');
+	overflow: hidden;
+
+	#logo-link {
+	    display: block;
+	    height: 100%;
+	    position: relative;
+
+		&::before {
+		    content: '';
+		    background: color('yellow');
+		    width: 100%;
+		    height: 100%;
+		    display: block;
+		    position: absolute;
+		    transform: skewX(-30deg) scaleX(1.3) scaleY(1.7) translateX(-15%);
+			z-index: -1;
+		}
+
+		&:hover::before{
+			background: color('pink');
+		}
+
+		&:hover .subtitle{
+			color:color('teal');
+		}
+	}
+}
+
+main{
+	margin-top: 100px;
+	padding-top: 2rem;
+}
+#project-intro{padding-bottom: 4rem}
+#project-intro img {
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid #f1f1f1;
+    object-fit: contain;
+}
+#project-intro img.vertical {
+    max-height: calc( 100vh - 100px - 4rem);
+	object-fit: contain;
+}
+.h4.project-date {
+    font-size: 1.33rem;
+    color: color('lavender');
+}
+main > section{
+	padding: 0 0 6rem;
+}
+main .section-break{
+	border-bottom:dotted 5px color('lavender');
+}
+.accent-bar{
+	background: color('ice-blue');
+	padding: 4rem 0;
+}
+.project-gallery figure,
+.project-gallery p{padding: 1rem;}
+.project-gallery img{box-shadow: $materialShadow}
+.project-gallery div {
+    display: flex;
+}
+.caption-quote {
+    color: #691cdf;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-style: italic;
+    font-size: 1.6rem;
+    letter-spacing: .023rem;
+
+	span{
+		background: #fff;
+		display: inline;
+	}
+}
+@media screen and (max-width:768px){
+	#main-header{
+		background: none;
+		overflow: visible;
+		box-shadow: none;
+
+		.mobile-btn-wrap {
+		    top: .5rem;
+		}
+		#logo-link {
+		    background: none;
+		    box-shadow: none;
+
+			&:hover{
+				&::before{
+					background: color('yellow')
+				}
+
+				[class*="cursive"]{
+					color: color('purple');
+				}
+				.subtitle{
+					color: color('pink');
+				}
+			}
+		}
+
+		#main-menu {
+		    z-index: -2;
+		}
+	}
+
+}

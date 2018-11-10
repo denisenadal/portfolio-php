@@ -1,0 +1,19 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch-base": "nodemon -e scss -x \"npm run base-css\"",
+		"build-css": "node-sass --include-path --indent-type tab --output-style compact scss/den-base.scss html-v2/css/den-base.css && node-sass --include-path --indent-type tab --output-style compact scss/den-home.scss html-v2/css/den-home.css && node-sass --include-path --indent-type tab --output-style compact scss/den-work.scss html-v2/css/den-work.css",
+		"home-css": " node-sass --include-path --indent-type tab --output-style compact scss/den-home.scss html-v2/css/den-home.css",
+		"base-css": "node-sass --include-path --indent-type tab --output-style compact scss/den-base.scss html-v2/css/den-base.css "
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^4.7.2",
+		"nodemon": "^1.17.2"
+	}
+}

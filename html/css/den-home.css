@@ -1,0 +1,208 @@
+/*!======= variables =========*/
+@import url("https://fonts.googleapis.com/css?family=Assistant:300,600|Lily+Script+One|Open+Sans:300i,600i|Oswald:500,600");
+/*!======= typebase =========*/
+body {
+  background: #50f9e7;
+  overflow-x: hidden !important;
+  max-width: 100vw; }
+
+body[class^="fp-viewing-skills"] #main-header,
+body[class^="fp-viewing-work"] #main-header {
+  background-color: #50f9e7; }
+
+body[class^='fp-viewing-experience'] #main-header {
+  background-color: #fff; }
+
+main > section,
+main > section.container {
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+#contact-bg,
+#intro-bg {
+  height: 100vh;
+  position: absolute;
+  width: 200vw;
+  z-index: -1;
+  transform: rotate(-30deg);
+  left: -50vw;
+  top: 0; }
+
+#contact-overflow {
+  height: 100vh;
+  position: absolute;
+  width: 200vw;
+  z-index: -1;
+  transform: rotate(-30deg);
+  left: -50vw;
+  bottom: -100vh;
+  background: #fef102; }
+
+#intro-section {
+  background: #50f9e7; }
+  #intro-section .container {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: left;
+    align-content: center;
+    max-height: 100%; }
+  #intro-section .title {
+    margin: 1rem 0;
+    padding: 0;
+    line-height: 100%; }
+
+#about-section {
+  background: none;
+  position: relative;
+  z-index: 0; }
+  #about-section figure {
+    width: 25%;
+    max-width: 200px; }
+
+#work-section {
+  background: #50f9e7; }
+  #work-section .section-menu {
+    margin: 1rem 0 .5rem 0;
+    display: flex;
+    width: 100%; }
+    #work-section .section-menu a {
+      background: white;
+      padding: 1rem 2rem;
+      flex-grow: 1;
+      text-align: center;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.33rem;
+      color: #ed008c;
+      border-bottom: 0.3rem solid #f1f1f1;
+      border-right: 0.3rem solid #f1f1f1;
+      margin: 0.25rem; }
+    #work-section .section-menu a.active {
+      background: #fef102;
+      border-color: #f9e866; }
+    #work-section .section-menu a:focus,
+    #work-section .section-menu a:hover {
+      background: #ed008c;
+      color: #fef102;
+      border-color: #c9077a; }
+  #work-section .fp-section.fp-table, #work-section .fp-slide.fp-table {
+    padding: 0 2px; }
+  #work-section .fp-controlArrow,
+  #work-section .fp-slidesNav.bottom {
+    display: none; }
+
+#skills-section {
+  background: linear-gradient(to bottom, #50f9e7 20%, #fff); }
+  #skills-section h1 {
+    padding-bottom: 0; }
+  #skills-section h2 {
+    margin: 0 0 0.5rem; }
+  #skills-section .skill-list li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.25rem 0;
+    display: flex; }
+  #skills-section .skill-name {
+    font-weight: normal;
+    font-family: "Oswald", sans-serif;
+    color: #5500da; }
+  #skills-section .skill-level {
+    display: inline-block;
+    background: #0bd8d1;
+    /*dark teal*/
+    flex-grow: 1;
+    margin-left: 1rem;
+    color: transparent; }
+    #skills-section .skill-level .bar {
+      background: #ed008c;
+      width: 0;
+      height: 100%; }
+
+#experience-section {
+  background: linear-gradient(to bottom, #fff 0%, #fff 85%, #d9fcf8 100%); }
+  #experience-section .job_extras .h4 {
+    font-size: 1rem;
+    color: #0bd8d1; }
+  #experience-section .fp-tableCell {
+    vertical-align: top; }
+  #experience-section .fp-controlArrow.fp-prev {
+    border-color: transparent #ed008c transparent transparent; }
+  #experience-section .fp-controlArrow.fp-prev:hover {
+    border-color: transparent #50f9e7 transparent transparent; }
+  #experience-section .fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #ed008c; }
+  #experience-section .fp-controlArrow.fp-next:hover {
+    border-color: transparent transparent transparent #ed008c; }
+  #experience-section .fp-slidesNav.bottom {
+    left: 50% !important; }
+  #experience-section .fp-slidesNav.bottom a:hover,
+  #experience-section .fp-slidesNav.bottom li:hover {
+    background: none;
+    color: #ed008c; }
+    #experience-section .fp-slidesNav.bottom a:hover:after, #experience-section .fp-slidesNav.bottom a:hover:before,
+    #experience-section .fp-slidesNav.bottom li:hover:after,
+    #experience-section .fp-slidesNav.bottom li:hover:before {
+      display: none; }
+
+#contact-section {
+  background: linear-gradient(to bottom, #d9fcf8 0%, #50f9e7 20%);
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: 100vh; }
+
+#main-footer {
+  position: relative;
+  top: -60px; }
+
+@media screen and (min-width: 769px) {
+  #work-section .row .col12x {
+    padding: 1rem; }
+  #work-section .row.side-outdent {
+    margin: auto -1rem;
+    max-width: calc(100% + 2rem) !important; }
+
+  #skills-section .container {
+    max-height: calc(100vh - 120px); } }
+@media screen and (max-width: 768px) {
+  #work-section .section-menu {
+    flex-flow: column nowrap; }
+
+  #work-section div.work-listing {
+    padding: 1rem 0; }
+
+  #skills-section .skill-set {
+    margin: 1rem 0 1rem 0; }
+
+  #experience-section .fp-controlArrow {
+    top: 12rem; }
+  #experience-section .heading-group {
+    margin-left: 2rem; }
+  #experience-section .fp-slidesNav.bottom {
+    left: 50% !important;
+    transform: translateX(-25%);
+    bottom: 0; }
+  #experience-section .fp-tableCell {
+    padding: 0 1px; }
+
+  #contact-section,
+  #contact-section .fp-tableCell {
+    min-height: 1000px;
+    height: 100% !important; }
+
+  #contact-section .form {
+    margin-top: 2rem; } }
+@media screen and (max-width: 540px) {
+  #contact-section,
+  #contact-section .fp-tableCell {
+    height: 100% !important;
+    min-height: 1200px !important; } }
+
+/*# sourceMappingURL=den-home.css.map */

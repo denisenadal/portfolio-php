@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Denise Nadal Web Design & Development</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a href="/">
+				<h1 class="nav-logo"><span class="title-cursive">Denise Nadal</span><span class="subtitle">Web Design & Development</span></h1>
+			</a>
+			<nav>
+				<a href="#about">About</a>
+				<a href="#work">Work</a>
+				<a href="#skills">Skills</a>
+				<a href="#experience">Experience</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="intro">
+			<div class="container">
+				<h1 class="title"><span class="title-cursive">Denise Nadal</span><span class="subtitle">Web Design & Development</span></h1>
+				<p class="motto">I love solving problems with good design.</p>
+				<p class="motto links"><a href="#work?type=uiux">UI/UX Design</a>, <a href="#work?type=gd">Graphic Deisgn</a>, <a href="#work?type=dev"> & Frontend Development</a></p>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div id="bio-box" class="pad1 white-bg">
+					<figure class="float-right">
+						<img src="" alt="Photo of Denise Nadal">
+						<figcaption>This is Denise!</figcaption>
+					</figure>
+					<h1 class="title">About Denise</h1>
+					<p>Hi I’m Denise and I want to make the world a better place through design. I’m passionate about creating beautiful, functional online experiences that are accessible to anyone. Nothing makes me happier than seeing people enjoy using the sites and
+						products I’ve built and/or designed.</p>
+					<p>As a designer/developer I love being able to take a project from ideation and sketches to a final usable product. I’m working towards becoming a design guru or fullstack developer in the future.</p>
+					<h2 class="title-2">Likes</h2>
+					<ul id="like-list" class="">
+						<li>Writing efficient and semantic HTML, CSS, JS & PHP </li>
+						<li>Designing intuitive & interactive experiences </li>
+						<li>Learning new technologies & frameworks </li>
+						<li>Staying organized and To-Do Lists! </li>
+						<li>Working on a team! </li>
+						<li>Making clients happy </li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<h1 class="title">Work</h1>
+			<nav class="section-menu">
+				<a href="#work?type=uiux">UI/UX Design</a>
+				<a href="#work?type=gd">Graphic Deisgn</a>
+				<a href="#work?type=dev"> & Frontend Development</a>
+			</nav>
+			<section id="uiux" class="works-gallery">
+				<h2 class="title2">UI/UX</h2>
+				<article class="work-listing">
+					<img src="/projects/dixie-portals/students-portalFINAL.jpg" alt="dixie.edu students homepage and dashboard">
+					<h3 class="title3">dixie.edu Web Portals</h3>
+					<p class="work-summary">redesigning dashboards for specific user groups with a focus on usability. <br>
+						<a href="projects/dixie-portals/details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="strange-horizons" class="work-listing">
+					<img src="projects/strange-horizons/strange_horizons_preview.jpg" alt="Mockups of potential redesign for Strange Horizons magazine">
+					<h3 class="title3">Strange Horizons Magazine</h3>
+					<p class="work-summary">Hi-fidelity mockups of a potential site redesign <br>
+						<a href="projects/strange-horizons/details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="ui-critiqueit" class="work-listing">
+					<img src="projects/critique-it/critiqueit02.jpg" alt="Example user page for critique it app">
+					<h3 class="title3">Critique It</h3>
+					<p class="work-summary">UI design for a prototype web app. <br>
+						<a href="projects/critique-it/details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="ui-personal" class="work-listing">
+					<img src="projects/personal-uiux/mockup-intro.jpg" alt="example use of denise nadal's personal branding system">
+					<h3 class="title3">Personal Portfolio</h3>
+					<p class="work-summary">UI/UX design for this site. <br>
+						<a href="projects/personal-uiux/details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="ui-flickerfeed" class="work-listing">
+					<img src="projects/flickr-feed/flickrfeed-desktop-searchresults.png" alt="example search results for flickr feed demo project">
+					<h3 class="title3">Flickr Feed Project</h3>
+					<p class="work-summary">UI design for simple web app project <br>
+						<a href="projects/flickrfeed/details">details</a> | <a href="https://flickrfeed.glitch.me/">live demo</a></p>
+				</article>
+				<article id="ui-weefee" class="work-listing">
+					<img src="projects/weefee/weefee-logo-design.png" alt="logo design for weefee app">
+					<h3 class="title3">Weefee App</h3>
+					<p class="work-summary">UI design for a network pen testing toolkit <br>
+						<a href="projects/weefee/details">details</a> | <a href="">live</a></p>
+				</article>
+			</section>
+			<section id="gd" class="works-gallery">
+				<h2 class="title2">Graphic Design</h2>
+				<article id="gd-itlogo" class="work-listing">
+					<img src="" alt="">
+					<h3 class="title3">Cat's Logo</h3>
+					<p class="work-summary"> <br>
+						<a href="projects//details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="gd-weefee" class="work-listing">
+					<img src="projects/weefee/weefee-logo-design.png" alt="logo design for weefee app">
+					<h3 class="title3">Weefee App Branding</h3>
+					<p class="work-summary">Logo & branding design for a network pen testing toolkit <br>
+						<a href="projects//details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="gd-spilker" class="work-listing">
+					<img src="spilker/spilker-branding.jpg" alt="Mockups of digital and print branding for spilker custom homes">
+					<h3 class="title3">Spilker Custom Homes Logotype</h3>
+					<p class="work-summary">Logo design for a local home builder <br>
+						<a href="projects//details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="gd-29muleteam" class="work-listing">
+					<img src="/projects/29muleteam-branding/29muleteam-mockup.jpg" alt="Mockup of 29 Mule Team Stationary Set">
+					<h3 class="title3">29 Mule Team Business System</h3>
+					<p class="work-summary">Imagined redesign of the 29 Mule Team branding <br>
+						<a href="projects/29muleteam-branding/details">details</a> | <a href="">live</a></p>
+				</article>
+				<article id="gd-personal" class="work-listing">
+					<img src="projects/personal-uiux/mockup-intro.jpg" alt="example use of denise nadal's personal branding system">
+					<h3 class="title3">Personal Branding System</h3>
+					<p class="work-summary">Devloping the branding system used for this site. <br>
+						<a href="projects/personal-uiux/details">details</a></p>
+				</article>
+			</section>
+			<section id="dev" class="works-gallery">
+				<h2 class="title2">Frontend Development</h2>
+				<article id="dev-critiqueit" class="work-listing">
+					<img src="projects/critique-it/critiqueit02.jpg" alt="Example user page for critique it app">
+					<h3 class="title3">Critique-it</h3>
+					<p class="work-summary">MEAN stack web app for sharing & critiqueing art <br>
+						<a href="projects/critique-it/details">details</a> | <a href="http://critique-it.herokuapp.com/#/">live</a></p>
+				</article>
+				<article id="dev-portals" class="work-listing">
+					<img src="/projects/dixie-portals/students-portalFINAL.jpg" alt="dixie.edu students homepage and dashboard">
+					<h3 class="title3">dixie.edu Custom WordPress Theme</h3>
+					<p class="work-summary">Customized Wordpress theme and templates for use on dixie.edu <br>
+						<a href="projects/dixie-portals/details">details</a> | <a href="https://students.dixie.edu">live version</a></p>
+				</article>
+				<article id="dev-tutoring" class="work-listing">
+					<img src="/projects/tutoring/tutoring-desktop.png" alt="dixie.edu academic performance & tutoring center's tutoring schedule app as viewed on a desktop">
+					<h3 class="title3">dixie.edu Tutoring Center Calendar</h3>
+					<p class="work-summary">Single page js-based web app using google calendar's API to dislay tutoring sessions <br>
+						<a href="projects/tutoring/details">details</a> | <a href="https://tutoring.dixie.edu/tutoring-schedule/">live version</a></p>
+				</article>
+				<article id="dev-campusmaps" class="work-listing">
+					<img src="projects/campus-maps/campusmap-large.png" alt="dixie.edu campus maps page as viewed on a desktop">
+					<h3 class="title3">dixie.edu Campus Maps</h3>
+					<p class="work-summary">single page web app using GeoJSON data and the Google Maps API to display information about buildings on campus. App is hosted on a customized WordPress template. <br>
+						<a href="projects//details">details</a> | <a href="https://dixie.edu/campus-maps">live page</a></p>
+				</article>
+				<article id="dev-acCal" class="work-listing">
+					<img src="projects/academic-calendar/ac-desktop03.PNG" alt="dixie.edu academic calendar page as viewed on a desktop">
+					<h3 class="title3">dixie.edu Academic Calendar</h3>
+					<p class="work-summary">single page web app using PHP and JS to load academic calendars and allows users to sort and filter events <br><a href="projects/academic-calendar/details">details</a> | <a href="https://academics.dixie.edu/academic-calendar">live page</a></p>
+				</article>
+				<article id="dev-flickerfeed" class="work-listing">
+					<img src="projects/flickr-feed/flickrfeed-desktop-searchresults.png" alt="example search results for flickr feed demo project">
+					<h3 class="title3">Flickr Feed Project</h3>
+					<p class="work-summary">A simple web app to search and find images from flickr.com <br>
+						<a href="projects/flickrfeed/details">details</a> | <a href="https://flickrfeed.glitch.me/">live demo</a></p>
+
+				</article>
+			</section>
+		</section>
+		<section id="skills">
+			<div class="container">
+				<h1 class="title">Skills</>
+				<section class="skill-set">
+					<h2 class="title-2">Web Basics</h2>
+					<ul class="skill-list">
+						<li>HTML5</li>
+						<li>CSS</li>
+						<li>SASS</li>
+						<li>PHP</li>
+						<li>WordPress</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">Javascript</h2>
+					<ul class="skill-list">
+						<li>JS</li>
+						<li>jQuery</li>
+						<li>Angular.js</li>
+						<li>React.js</li>
+						<li>Node.js</li>
+						<li>Handlebars.js</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">Software Dev</h2>
+					<ul class="skill-list">
+						<li>Python</li>
+						<li>Git</li>
+						<li>MVC</li>
+						<li>OOP</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">Databases</h2>
+					<ul class="skill-list">
+						<li>mySQL</li>
+						<li>SQLite</li>
+						<li>MongoDB</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">Design Software</h2>
+					<ul class="skill-list">
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+						<li>Adobe InDesign</li>
+						<li>Sketch</li>
+						<li>InVision</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">Designing for Web</h2>
+					<ul class="skill-list">
+						<li>Responsive Design</li>
+						<li>Accessibility</li>
+						<li>Cross-browser Testing & Debugging</li>
+					</ul>
+				</section>
+				<section class="skill-set">
+					<h2 class="title-2">SEO</h2>
+					<ul class="skill-list">
+						<li>Google Analytics</li>
+						<li>Google Webmaster Tools</li>
+						<li>SEO</li>
+						<li>Google DataStudio</li>
+					</ul>
+				</section>
+			</div>
+		</section>
+		<section id="experience">
+			<section class="exeperience_container row">
+				<h1 class="title">Experience</h1>
+				<div class="job_details col7l col7m left-edge">
+					<h2 class="title-2">
+						<span class="heading">Dixie State University</span>
+						<span class="subheading">Web Content Designer & Developer</span>
+						<span class="subsubheading">Design & Development</span>
+					</h2>
+					<p>Lead designer in charge of developing new themes, templates, designs and layouts in WordPress for use on dixie.edu. Also serves as lead developer after our webmaster, developing web apps and services in php, javascript, jQuery, & Angular and working
+						with REST APIs and databases.</p>
+
+					<p>As designer, pursues user-centered design daily and regularly conducts user testing and monitoring analytics. Develops guides, tutorials, reusable design assets and policies to improve workflow and design consistency. Developed all the content on
+						the <a href="https://webservices.dixie.edu">DSU Web Services website</a></p>
+
+					<p>Works closely with webmaster to train and lead a team of 7-8 junior-level developers and designers as well as organizing team projects. </p>
+				</div>
+				<figure class="job_extras col5l col5m right-edge">
+					<img src="http://localhost/denisenadal.com/wp-content/uploads/2016/09/dixiev2.jpg" alt="Employer: Dixie State University" />
+					<figcaption class="col12l">
+						<h3 class="title-3">Pages & projects I've developed</h3>
+						<ul>
+
+						</ul>
+					</figcaption>
+				</figure>
+		</section>
+		<hr class="col12 left-edge right-edge">
+		<section class="exeperience_container row">
+			<div class="job_details col7l col7m left-edge">
+				<h2 class="title-2">
+								<span class="heading">Dixie State University</span>
+								<span class="subheading">Team Lead/Head Intern</span>
+								<span class="subsubheading">Content Management & Migration</span>
+							</h2>
+				<p>Led a team of 5 - 8 junior-level web developers in migrating content to a new CMS (Wordpress); creating new content and updating code to HTML5/CSS3 web standards and implementing new branding and style guide.</p>
+				<p>Served as a liaison between project managers, clients and the developers, communicating goals, deadlines and identifying issues. Trained new developers in WordPress, following the site style guide, and coding as needed.</p>
+				<p>Addressed user feedback and improved UI/UX based on user input. Problem-solving and troubleshooting issues on a daily basis, as well as continually analyzing ways to improve site functionality and UI/UX.</p>
+			</div>
+			<figure class="job_extras col5l col5m right-edge">
+				<img src="http://localhost/denisenadal.com/wp-content/uploads/2016/09/denise_nadal_jobs_01.jpg" alt="image of dixie.edu">
+				<figcaption class="col12l">
+					<h3 class="title-3">Pages & projects I've developed</h3>
+					<ul>
+						<a href="https://international.dixie.edu/prospective-students/">
+							<li>International Prospective Students page</li>
+						</a>
+						<a href="https://wrc.dixie.edu">
+							<li>Women's Resource Center site</li>
+						</a>
+					</ul>
+				</figcaption>
+			</figure>
+		</section>
+		<hr class="col12 left-edge right-edge">
+		<section class="exeperience_container row">
+			<div class="job_details col7l col7m left-edge">
+				<h2 class="title-2">
+								<span class="heading">Spilker Custom Homes</span>
+								<span class="subheading">Site Redesign, SEO & E-Marketing Campaign</span>
+							</h2>
+				<p>With project partner, Drew Adams, designed and implemented a new clean and modern site targeted towards our client’s target demographic, utilizing user feedback to optimize UI/UX. Implemented onsite and offsite SEO & E-Marketing tactics including
+					optimizing keywords, SERP results, creating infographics, newsletters and youtube videos. Used social media channels to reach target audience and generate leads.</p>
+			</div>
+			<figure class="job_extras col5l col5m right-edge">
+				<img src="http://localhost/denisenadal.com/wp-content/uploads/2016/09/denise_nadal_jobs_02.jpg" alt="image of Spilker Custom Homes site redesign & rebrand">
+			</figure>
+		</section>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<div class="branding">
+					<h1 class="title"><span class="title">Contact</span><span class="title-cursive">Denise Nadal</span><span class="subtitle">Web Design & Development</span></h1>
+					<p class="content">Want to hire me? Send me a message or find me on facebook, linkedin, zipRecruiter, or indeed. You can always email me at denise@denisenadal.com if you want to chat!</p>
+				</div>
+				<div>
+					<form action="">
+						<h2 class="title-2">Message Denise</h2>
+						<div class="slim row">
+							<div class="slim col6s left-edge"><label for="fullname">Name:</label><input class="left-edge" type="text" name="fullname" id="fullname"></div>
+							<div class="slim col6s"><label for="company">Company:</label><input type="text" id="company" name="company"></div>
+						</div>
+						<div class="slim row">
+							<div class="slim col6s left-edge"><label for="emailaddress">E-mail:</label><input class="left-edge" type="email" id="emailaddress" name="emailaddress"></div>
+							<div class="slim col6s left-edge"><label for="phonenumber">Telephone:</label> <input type="tel" id="phonenumber" name="phonenumber"></div>
+						</div>
+						<div class="slim row">
+							<div class="slim col12s">
+								<p>Preferred Contact Method: <br>
+									<input class="left-edge" type="radio" name="contact" id="email" value="email"><label for="email">Email</label>
+									<input type="radio" name="contact" id="text" value="text"><label for="text">Text</label>
+									<input type="radio" name="contact" id="phone" value="phone"><label for="phone">Phone</label></p>
+							</div>
+						</div>
+						<div class="slim row">
+							<div class="slim col12s left-edge">
+								<label for="message">Message:</label><br><textarea id="message" name="message"></textarea>
+							</div>
+						</div>
+						<div class="slim row">
+							<div class="slim col12s left-edge">
+								<input type="submit" value="Send">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container"></div>
+	</footer>
+</body>
+
+</html>

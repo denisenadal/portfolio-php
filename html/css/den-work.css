@@ -1,0 +1,106 @@
+/*!======= variables =========*/
+@import url("https://fonts.googleapis.com/css?family=Assistant:300,600|Lily+Script+One|Open+Sans:300i,600i|Oswald:500,600");
+/*!======= typebase =========*/
+body.uiux .dev,
+body.uiux .gd,
+body.gd.dev,
+body.gd .uiux,
+body.dev .gd,
+body.dev .uiux {
+  display: none; }
+
+body.dev .dev,
+body.uiux .uiux,
+body.gd .gd {
+  display: initial; }
+
+#main-header {
+  background: #50f9e7;
+  overflow: hidden; }
+  #main-header #logo-link {
+    display: block;
+    height: 100%;
+    position: relative; }
+    #main-header #logo-link::before {
+      content: '';
+      background: #fef102;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      transform: skewX(-30deg) scaleX(1.3) scaleY(1.7) translateX(-15%);
+      z-index: -1; }
+    #main-header #logo-link:hover::before {
+      background: #ed008c; }
+    #main-header #logo-link:hover .subtitle {
+      color: #50f9e7; }
+
+main {
+  margin-top: 100px;
+  padding-top: 2rem; }
+
+#project-intro {
+  padding-bottom: 4rem; }
+
+#project-intro img {
+  margin: 0 auto;
+  text-align: center;
+  border: 4px solid #f1f1f1;
+  object-fit: contain; }
+
+#project-intro img.vertical {
+  max-height: calc( 100vh - 100px - 4rem);
+  object-fit: contain; }
+
+.h4.project-date {
+  font-size: 1.33rem;
+  color: #d7d2e8; }
+
+main > section {
+  padding: 0 0 6rem; }
+
+main .section-break {
+  border-bottom: dotted 5px #d7d2e8; }
+
+.accent-bar {
+  background: #d9fcf8;
+  padding: 4rem 0; }
+
+.project-gallery figure,
+.project-gallery p {
+  padding: 1rem; }
+
+.project-gallery img {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2), 0 0 1px 1px rgba(0, 0, 0, 0.06); }
+
+.caption-quote {
+  color: #691cdf;
+  font-weight: bold;
+  font-family: Open Sans;
+  font-style: italic;
+  font-size: 1.6rem;
+  letter-spacing: .023rem; }
+  .caption-quote span {
+    background: #fff;
+    display: inline; }
+
+@media screen and (max-width: 768px) {
+  #main-header {
+    background: none;
+    overflow: visible;
+    box-shadow: none; }
+    #main-header .mobile-btn-wrap {
+      top: .5rem; }
+    #main-header #logo-link {
+      background: none;
+      box-shadow: none; }
+      #main-header #logo-link:hover::before {
+        background: #fef102; }
+      #main-header #logo-link:hover [class*="cursive"] {
+        color: #5500da; }
+      #main-header #logo-link:hover .subtitle {
+        color: #ed008c; }
+    #main-header #main-menu {
+      z-index: -2; } }
+
+/*# sourceMappingURL=den-work.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gCAAgC;AACvB,2HAAmH;AA6B5H,+BAA+B",
+"sources": ["../../scss/den-vars.scss"],
+"names": [],
+"file": "den-vars.css"
+}

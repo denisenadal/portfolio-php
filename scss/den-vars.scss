@@ -1,0 +1,31 @@
+/*!======= variables =========*/
+ @import url('https://fonts.googleapis.com/css?family=Assistant:300,600|Lily+Script+One|Open+Sans:300i,600i|Oswald:500,600');
+
+$s1x: 12px;
+$s1-5x: 18px;
+$s2x: 24px;
+$s3x:36px;
+
+$colors : (
+	"pink": #ed008c,
+	"teal": #50f9e7,
+	"dark-teal":#0bd8d1,
+	"yellow": #fef102,
+	"purple": #5500da,
+	"dark-purple": #20007b,
+	"ice-blue": #d9fcf8,
+	"lavender": #d7d2e8,
+	"white":#fff
+	);
+@function color($key) {
+  @return map-get($colors, $key);
+}
+
+$bodyFont: 'Assistant', sans-serif;
+$cursiveFont: 'Lily Script One', cursive;
+$titleFont: 'Oswald', sans-serif;
+$default-animation : .25s ease-in;
+$materialShadow: 0 8px 6px -6px rgba(0,0,0,.2),  0 0 1px 1px rgba(0,0,0,.06);
+
+
+/*!======= typebase =========*/
