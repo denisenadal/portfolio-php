@@ -1,5 +1,5 @@
 <?php
-define( 'DEN_ROOT', 'http://denisenadal.com/' );
+define( 'DEN_ROOT', 'https://denisenadal.com/' );
 ?>
 <!DOCTYPE html>
 <html lang="en">
