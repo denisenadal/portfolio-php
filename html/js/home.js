@@ -1,23 +1,23 @@
 var macy;
 
-var container = document.getElementById('skills-container');
-var inner = document.getElementById('skills-inner');
-fit(inner, container, {
+// var container = document.getElementById('skills-container');
+// var inner = document.getElementById('skills-inner');
+// fit(inner, container, {
 
-	// Alignment
-	hAlign: fit.CENTER, // or fit.LEFT, fit.RIGHT
-	vAlign: fit.TOP, // or fit.TOP, fit.BOTTOM
+// 	// Alignment
+// 	hAlign: fit.CENTER, // or fit.LEFT, fit.RIGHT
+// 	vAlign: fit.TOP, // or fit.TOP, fit.BOTTOM
 
-	// Fit within the area or fill it all (true)
-	cover: false,
+// 	// Fit within the area or fill it all (true)
+// 	cover: false,
 
-	// Fit again automatically on window resize
-	watch: true,
+// 	// Fit again automatically on window resize
+// 	watch: true,
 
-	// Apply computed transformations (true) or just
-	// return the transformation definition (false)
-	apply: true
-});
+// 	// Apply computed transformations (true) or just
+// 	// return the transformation definition (false)
+// 	apply: true
+// });
 
 
 
@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
 		//Navigation
 		menu: '#main-menu',
 		navigation: false,
-		anchors: ['intro', 'about', 'work', 'skills', 'experience', 'contact'],
+		anchors: ['intro', 'about', 'work', 'experience', 'contact'],
 		slidesNavigation: true,
 		slidesNavPosition: 'bottom',
 
@@ -88,16 +88,16 @@ jQuery(document).ready(function($) {
 			} else {
 				$('#logo-link').css('visibility', 'visible');
 			}
-			if (anchorLink === 'skills') {
-				//do skill stuff
-				$('.skill-level').each(function(el, i) {
-					var percent = (parseInt($(this).text()) * 10).toString() + '%';
-					$(this).find('.bar').width(0);
-					$(this).find('.bar').animate({
-						width: percent,
-					}, 1200);
-				});
-			}
+			// if (anchorLink === 'skills') {
+			// 	//do skill stuff
+			// 	$('.skill-level').each(function(el, i) {
+			// 		var percent = (parseInt($(this).text()) * 10).toString() + '%';
+			// 		$(this).find('.bar').width(0);
+			// 		$(this).find('.bar').animate({
+			// 			width: percent,
+			// 		}, 1200);
+			// 	});
+			// }
 			if (anchorLink === 'work') {
 				//resize the gallery on work section
 				macy.reInit();
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
 			$('#main-header').stop(true, false).delay(400).fadeIn(1200);
 		},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-			if (index === 'work') {
+            if (anchorLink === 'work') {
 				//after slide has loaded resize the section
 				var active_height = $('#work-section .works-gallery .row').eq(slideIndex).innerHeight();
 				$('#work-section .fp-slidesContainer').height(active_height);
@@ -169,7 +169,7 @@ function setActiveGallery() {
 	$('.works-gallery').removeClass('active');
 
 	var hash = window.location.hash;
-	if (hash !== '#work/gd' && hash !== '#work/dev') {
+	if (hash !== '#work/uiux2' ) {
 		hash = '#work/uiux'
 	}
 	$('#work-section .section-menu a[href="' + hash + '"]').addClass('active');

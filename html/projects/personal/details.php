@@ -4,7 +4,7 @@ $pageVars = array(
 	'css' => array('den-work'),
 	'title' => 'Personal Portfolio & Branding',
 	'category'=>$category,
-	'js'	=>array('macy','projects','projects/personal')
+	'js'	=>array('macy','projects')
 );
 include('../../header.php');
 ?>
@@ -25,13 +25,13 @@ include('../../header.php');
 <section id="project-process" class="accent-bar">
 	<div class="container clearfix">
 		<div class="row outdent">
-			<div class="col12x col12s col9m col8l">
+			<div class="col12x col12s col9m col8l pad1">
 				<h2 class="h3"><span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Development</span> Process</h2>
 				<p  class=" uiux">I started this site by spending a few weeks sketching out ideas as thumbnails and storyboards. Once I had clear idea about what I wanted the site to look and feel like, I took it to mockups and began figuring out the details of the design. From there I built it out into code. </p>
 				<p class=" uiux">It has undergone several iterations, first as a simple php site, then as WordPress theme, and now it's something of a hybrid.</p>
 			</div>
-			<div class="clear-left col12x">
-				<div class="project-gallery ">
+			<div class=" col12x no-pad">
+				<div id="personal-process-gallery" class="project-gallery " data-sizes="4422">
 					<figure class="project-img">
 						<a href="mockup-contact.jpg">
 							<img src="mockup-contact.jpg" alt="Mockup of the Contact page">
@@ -100,7 +100,7 @@ include('../../header.php');
 			<p class="gd"></p>
 		</div>
 		<div class="col12x col6s col7m col8l">
-			<div class="project-gallery">
+			<div id="personal-results-gallery" class="project-gallery" data-sizes="4422">
 				<figure class="project-img"> <img src="personal-hd.jpg" alt="Personal Site on HD Screens"> </figure>
 				<figure class="project-img"> <img src="personal-sd.jpg" alt="Personal Site on Small Screens"> </figure>
 				<figure class="project-img"> <img src="personal-tablet.jpg" alt="Personal Site on Tablet"> </figure>

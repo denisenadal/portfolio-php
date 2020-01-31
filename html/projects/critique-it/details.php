@@ -4,7 +4,7 @@ $pageVars = array(
 	'css' => array('den-work'),
 	'title' => 'CritiqueIt Web App',
 	'category'=>$category,
-	'js'	=>array('macy','projects','projects/critique-it')
+	'js'	=>array('macy','projects')
 );
 include('../../header.php');
 ?>
@@ -37,8 +37,8 @@ include('../../header.php');
 	</div>
 </section>
 <section id="project-results" class="container top-margin4" >
-	<h2 class="h3">The Final <span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Product</span> </h2>
-	<div class="project-gallery col12x">
+	<h2 class="h3 pad1">The Final <span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Product</span> </h2>
+	<div id="critiqueit-results-gallery" class="project-gallery col12x" data-sizes="3332">
 		<figure class="project-img">
 			<a href="critiqueit01.PNG">
 				<img src="critiqueit01.PNG" alt="Desktop view of onboarding screen">
@@ -52,7 +52,7 @@ include('../../header.php');
 			</a>
 		</figure>
 		<div >
-			<a href="http://critique-it.herokuapp.com/#/" class="btn top-margin3 left-margin bottom-margin3">Visit live version</a>
+			<a href="http://critique-it.herokuapp.com/#/" class="btn top-margin3 left-margin bottom-margin3 display-inline-block">Visit live version</a>
 		</div
 	</div>
 </section>

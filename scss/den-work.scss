@@ -11,7 +11,8 @@ body.dev .uiux,{
 body.dev .dev,
 body.uiux .uiux,
 body.gd .gd{
-	display: initial;
+	display: inline-block;
+    display: revert;
 }
 
 
@@ -80,6 +81,14 @@ main .section-break{
 .project-gallery div {
     display: flex;
 }
+.project-gallery.outdent {
+    margin: -1rem;
+    max-width: calc(100% + 2rem) !important;
+}
+.project-gallery.side-outdent {
+    margin: auto -1rem;
+    max-width: calc(100% + 2rem) !important;
+}
 .caption-quote {
     color: #691cdf;
     font-weight: bold;
@@ -92,6 +101,11 @@ main .section-break{
 		background: #fff;
 		display: inline;
 	}
+}
+
+.content-card {
+    padding: 2rem;
+    background-color: #d7d2e8;
 }
 @media screen and (max-width:768px){
 	#main-header{

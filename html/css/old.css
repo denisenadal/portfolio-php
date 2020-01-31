@@ -357,7 +357,7 @@ width:768px;
 /*-----------------index & contact page styling */
 
 #index, #contact{
-	background: url('http://denisenadal.com/wp-content/uploads/2016/10/striped-bg.svg') no-repeat center center;
+	background: url('https://denisenadal.com/wp-content/uploads/2016/10/striped-bg.svg') no-repeat center center;
 	background-size:cover;
 }
 #index > *, #contact > *{
@@ -450,14 +450,14 @@ width:768px;
 }
 
 #web.portfolio_link{
-	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('http://denisenadal.com/wp-content/uploads/2016/10/button_web02.jpg');
+	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('https://denisenadal.com/wp-content/uploads/2016/10/button_web02.jpg');
 	transition: opacity .5s ease;
 }
 #web.portfolio_link:after {
 	background:hsla(174, 76%, 58%,1);/*teal*/
 }
 #art.portfolio_link {
-	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('http://denisenadal.com/wp-content/uploads/2016/10/button_art02.jpg');
+	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ), url('https://denisenadal.com/wp-content/uploads/2016/10/button_art02.jpg');
 }
 #art.portfolio_link:after{
 	background: #FFF100;
@@ -466,7 +466,7 @@ width:768px;
 	padding:2rem 1rem;
 }
 #gd.portfolio_link{
-	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('http://denisenadal.com/wp-content/uploads/2016/10/button_gd02.jpg');
+	background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://denisenadal.com/wp-content/uploads/2016/10/button_gd02.jpg');
 }
 #gd.portfolio_link:after{
 	background:#EC008B;

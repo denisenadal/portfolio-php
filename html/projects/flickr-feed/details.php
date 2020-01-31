@@ -46,8 +46,8 @@ include('../../header.php');
 		<div class="col12x col5s col4m col4l">
 			<a href="https://flickrfeed.glitch.me/" class="btn center-text display-block top-margin2">Visit the live version</a>
 		</div>
-		<div class="col12x">
-			<div class="project-gallery">
+		<div class="col12x pad1">
+			<div id="flickr-results-gallery" class="project-gallery" data-sizes="3332">
 				<figure class="project-img"><a href="flickrfeed-desktop-default.png"><img src="flickrfeed-desktop-default.png" alt="flickr feed api project defaul landing page" class=""><figcaption>Desktop Latest Results</figcaption></a> </figure>
 				<figure class="project-img"><a href="flickrfeed-desktop-searchresults.png"><img src="flickrfeed-desktop-searchresults.png" alt="flickr feed api project search results page" class=""><figcaption>Desktop Search Results</figcaption></a> </figure>
 				<figure class="project-img"><a href="flickrfeed-mobile.png"><img src="flickrfeed-mobile.png" alt="flickr feed api project viewed on mobile screen" class=""><figcaption>Mobile Version</figcaption></a> </figure>

@@ -14,7 +14,7 @@ include('../../header.php');
 		<img src="tutoring-cropped.png" alt="cropped view of the tutoring calendar/schedule page" class="col5l col5m col4s col12x vertical">
 		<div class="col7l col7m col8s col12x">
 			<h1 class="project-title h1">dixie.edu Tutoring Schedule App</h1>
-			<p class="h4 project-date uiux">UI Design </p>
+			<p class="h4 project-date uiux">UI/UX Design </p>
 			<p class="h4 project-date dev">Dev</p>
 			<p class="h4 project-date gd">Design</p>
 			<h2 class="h3">Summary</h2>

@@ -4,7 +4,7 @@ $pageVars = array(
 	'css' => array('den-work'),
 	'title' => 'Campus Maps App',
 	'category'=>$category,
-	'js'	=>array('macy','projects','projects/campus-maps')
+	'js'	=>array('macy','projects')
 );
 include('../../header.php');
 ?>
@@ -50,8 +50,8 @@ include('../../header.php');
 		</div>
 </section>
 <section id="project-results" class="container top-margin4" >
-	<h2 class="h3">The Final <span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Product</span> </h2>
-	<div class="project-gallery col12x">
+	<h2 class="h3 pad1">The Final <span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Product</span> </h2>
+	<div id="dixiemaps-results-gallery" class="project-gallery col12x" data-sizes="3332">
 		<figure class="project-img">
 			<a href="campusmap-large.png">
 				<img src="campusmap-large.png" alt="Desktop view of overview screen">

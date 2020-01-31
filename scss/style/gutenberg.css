@@ -1,0 +1,469 @@
+/*
+Gutenberg: A Meaningful Web Typography Starter Kit
+Website ....... http://matejlatin.github.io/Gutenberg/
+Version ....... 1.2.3
+Github ........ https://github.com/matejlatin/Gutenberg
+Authors ....... Matej Latin (@matejlatin)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/license.txt
+*/
+/* Configuration
+   ========================================================================== */
+/* Calculations
+   ========================================================================== */
+/* Font themes
+   ========================================================================== */
+@media screen and (min-width: 105em) {
+  .floatLeft {
+    float: left; } }
+
+@media screen and (min-width: 105em) {
+  .floatCenter {
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (min-width: 105em) {
+  .floatRight {
+    float: right; } }
+
+/* Defaults
+   ========================================================================== */
+@media screen and (min-width: 105em) {
+  body,
+  html {
+    margin: 0;
+    width: 100%;
+    max-width: none; } }
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 100%;
+  line-height: 30px;
+  line-height: 1.875rem;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+  @media screen and (min-width: 105em) {
+    html {
+      font-size: 17.92px;
+      font-size: 1.12rem; } }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+audio {
+  display: inline-block;
+  vertical-align: baseline; }
+  audio:not([controls]) {
+    display: none;
+    height: 0; }
+
+canvas {
+  display: inline-block;
+  vertical-align: baseline; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; }
+
+code {
+  padding: 30px;
+  padding: 1.875rem;
+  display: block; }
+  @media screen and (min-width: 105em) {
+    code {
+      padding: 33px;
+      padding: 1.8415178571rem; } }
+
+details {
+  display: block; }
+
+summary {
+  display: block; }
+
+figcaption {
+  line-height: 30px;
+  line-height: 1.875rem;
+  color: #222;
+  display: block;
+  font-size: .8125rem;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center; }
+  @media screen and (min-width: 105em) {
+    figcaption {
+      line-height: 33px;
+      line-height: 1.8415178571rem;
+      margin-bottom: 0; } }
+
+figure {
+  display: block; }
+
+@media screen and (min-width: 105em) {
+  figure.floatLeft,
+  figure.floatRight {
+    max-width: 896px;
+    max-width: 50rem;
+    padding: 0px 33px;
+    padding: 0rem 1.8415178571rem; } }
+@media screen and (min-width: 105em) {
+  figure.floatLeft blockquote,
+  figure.floatRight blockquote {
+    padding: 0px;
+    padding: 0rem;
+    text-align: left; } }
+@media screen and (min-width: 105em) {
+  figure.floatLeft blockquote p,
+  figure.floatRight blockquote p {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    line-height: 33px;
+    line-height: 1.8415178571rem; } }
+
+/* Headings
+   ========================================================================== */
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 60px;
+  line-height: 3.75rem;
+  margin-top: 120px;
+  margin-top: 7.5rem;
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem; }
+
+h2 {
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 45px;
+  line-height: 2.8125rem;
+  margin-top: 75px;
+  margin-top: 4.6875rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; }
+
+h3 {
+  font-size: 26.4px;
+  font-size: 1.65rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-top: 60px;
+  margin-top: 3.75rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; }
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-top: 45px;
+  margin-top: 2.8125rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; }
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-top: 75px;
+  margin-top: 4.6875rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; }
+
+h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-top: 75px;
+  margin-top: 4.6875rem;
+  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; }
+
+@media screen and (min-width: 105em) {
+  h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 66px;
+    line-height: 3.6830357143rem;
+    margin-top: 132px;
+    margin-top: 7.3660714286rem;
+    margin-bottom: 33px;
+    margin-bottom: 1.8415178571rem; }
+
+  h2 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 49.5px;
+    line-height: 2.7622767857rem;
+    margin-top: 82.5px;
+    margin-top: 4.6037946429rem;
+    margin-bottom: 16.5px;
+    margin-bottom: 0.9207589286rem; }
+
+  h3 {
+    font-size: 26.4px;
+    font-size: 1.65rem;
+    line-height: 33px;
+    line-height: 1.8415178571rem;
+    margin-top: 66px;
+    margin-top: 3.6830357143rem;
+    margin-bottom: 16.5px;
+    margin-bottom: 0.9207589286rem; }
+
+  h4 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 33px;
+    line-height: 1.8415178571rem;
+    margin-top: 49.5px;
+    margin-top: 2.7622767857rem;
+    margin-bottom: 16.5px;
+    margin-bottom: 0.9207589286rem; }
+
+  h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 33px;
+    line-height: 1.8415178571rem;
+    margin-top: 82.5px;
+    margin-top: 4.6037946429rem;
+    margin-bottom: 16.5px;
+    margin-bottom: 0.9207589286rem; }
+
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 33px;
+    line-height: 1.8415178571rem;
+    margin-top: 82.5px;
+    margin-top: 4.6037946429rem;
+    margin-bottom: 16.5px;
+    margin-bottom: 0.9207589286rem; } }
+h1 + h2 {
+  margin-top: 30px;
+  margin-top: 1.875rem; }
+  @media screen and (min-width: 105em) {
+    h1 + h2 {
+      margin-top: 33px;
+      margin-top: 1.8415178571rem; } }
+
+h2 + h3,
+h3 + h4,
+h4 + h5 {
+  margin-top: 15px;
+  margin-top: 0.9375rem; }
+  @media screen and (min-width: 105em) {
+    h2 + h3,
+    h3 + h4,
+    h4 + h5 {
+      margin-top: 16.5px;
+      margin-top: 0.9207589286rem; } }
+
+h5 + h6 {
+  margin-top: -15px;
+  margin-top: -0.9375rem; }
+  @media screen and (min-width: 105em) {
+    h5 + h6 {
+      margin-top: -16.5px;
+      margin-top: -0.9207589286rem; } }
+
+h6 {
+  font-style: italic;
+  font-weight: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arbutus Slab" serid; }
+
+hgroup {
+  display: block; }
+
+hr {
+  margin-top: 60px;
+  margin-top: 3.75rem;
+  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
+  box-sizing: content-box;
+  border: 0;
+  color: #222;
+  display: block;
+  height: 30px;
+  height: 1.875rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 100% 30px;
+  background-size: 100% 1.875rem;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 13px, #222 13px, #222 17px, transparent 17px, transparent 30px);
+  width: 100px; }
+  @media screen and (min-width: 105em) {
+    hr {
+      margin-top: 66px;
+      margin-top: 3.6830357143rem;
+      margin-bottom: 66px;
+      margin-bottom: 3.6830357143rem;
+      height: 33px;
+      height: 1.8415178571rem; } }
+  @media screen and (min-width: 105em) {
+    hr {
+      background-size: 100% 33px;
+      background-size: 100% 1.8415178571rem;
+      background-image: linear-gradient(to bottom, transparent 1px, transparent 14.5px, #222 14.5px, #222 18.5px, transparent 18.5px, transparent 33px); } }
+
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+  margin: inherit auto; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+ul li,
+ol li {
+  margin-bottom: 0; }
+
+nav {
+  display: block; }
+
+progress {
+  display: inline-block;
+  vertical-align: baseline; }
+
+blockquote {
+  font-style: italic;
+  padding-left: 1.4375rem; }
+  @media screen and (min-width: 105em) {
+    blockquote {
+      padding-left: 2rem; } }
+
+cite {
+  display: block;
+  font-style: normal; }
+
+figure blockquote {
+  padding: 30px 0px;
+  padding: 1.875rem 0rem; }
+  @media screen and (min-width: 105em) {
+    figure blockquote {
+      padding: 66px 0px 33px;
+      padding: 3.6830357143rem 0rem 1.8415178571rem;
+      text-align: center; } }
+  figure blockquote p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 45px;
+    line-height: 2.8125rem; }
+    @media screen and (min-width: 105em) {
+      figure blockquote p {
+        font-size: 27px;
+        font-size: 1.6875rem;
+        line-height: 49.5px;
+        line-height: 2.7622767857rem; } }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+br {
+  margin-bottom: 0; }
+
+abbr {
+  letter-spacing: 0.1em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+em,
+i {
+  line-height: 0;
+  vertical-align: baseline; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  line-height: 15px;
+  line-height: 0.9375rem;
+  font-size: 70%; }
+  @media screen and (min-width: 105em) {
+    small {
+      line-height: 16.5px;
+      line-height: 0.9207589286rem; } }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Paragraph
+========================================================================== */
+.attention-grabber {
+  font-size: 19.2px;
+  font-size: 1.2rem; }
+
+.alignLeft {
+  text-align: left; }
+
+.alignCenter {
+  text-align: center; }
+
+.alignRight {
+  text-align: right; }
+
+.uppercase {
+  letter-spacing: .1em;
+  text-transform: uppercase; }
+
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* TODOs:
+ - some line heights produce margins with .5 results, seemingly breaking the gird (?),
+ - add table and side comments elements,
+ */
+
+/*# sourceMappingURL=gutenberg.css.map */

@@ -4,7 +4,7 @@ $pageVars = array(
 	'css' => array('den-work'),
 	'title' => 'CritiqueIt Web App',
 	'category'=>$category,
-	'js'	=>array('macy','projects','projects/portals')
+	'js'	=>array('macy','projects')
 );
 include('../../header.php');
 ?>
@@ -27,7 +27,7 @@ include('../../header.php');
 <section id="project-process" class="accent-bar">
 	<div class="container clearfix">
 		<div class="row outdent">
-			<div class="col12x col7s col8m col8l   ">
+			<div class="col12x col7s col8m col8l pad1">
 				<h2 class="h3"><span class="uiux">Design</span><span class="dev">Development</span> Process</h2>
 				<div class="des">
 					<p >We began this process by conducting user research. We held focus groups and user interviews to assess user sentiment about the site and learn what they considered to be their pain points. We reviewed our analytics to understand what our users were looking for and how they were finding it. </p>
@@ -39,7 +39,7 @@ include('../../header.php');
 					Development process description coming soon.
 				</div>
 			</div>
-			<div class="project-gallery col12x uiux">
+			<div id="portal-process-gallery" class="project-gallery col12x uiux" data-sizes="4432">
 				<figure class="project-img">
 					<a href="hpp03-data-collection.jpg">
 						<img src="hpp03-data-collection.jpg" alt="Data Collection process">
@@ -112,7 +112,7 @@ include('../../header.php');
 </section>
 <section id="project-results" class="container top-margin4" >
 	<h2 class="h3">The Final <span class="uiux">Design</span><span class="dev">Product</span> </h2>
-	<div class="project-gallery col12x">
+	<div id="portal-results-gallery" class="project-gallery col12x" data-sizes="4432">
 		<div class="r">
 			<a href="http://students.dixie.edu" class="btn top-margin2 right-margin2 bottom-margin2 display-block">Student Portal</a>
 			<a href="http://employees.dixie.edu" class="btn top-margin2 right-margin2 bottom-margin2 display-block">Employee Portal</a>

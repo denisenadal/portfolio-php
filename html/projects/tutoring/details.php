@@ -33,7 +33,7 @@ include('../../header.php');
 				<img src="tutoring-04.png" alt="Mobile Mockup version 2" >
 			</figure>
 			<div class="clear-left col12x col12s col8m col6l">
-				<div class="project-gallery ">
+				<div id="tutoring-process-gallery" class="project-gallery " data-sizes="3322">
 					<figure class="project-img">
 						<img src="tutoring-01.png" alt="Desktop Mockup version 1">
 					</figure>
@@ -60,7 +60,7 @@ include('../../header.php');
 			<a href="https://tutoring.dixie.edu/tutoring-schedule/" class="btn center-text display-block">Visit the live version</a>
 		</div>
 		<div class="col12x col6s col7m col8l">
-			<div class="project-gallery">
+			<div id="tutoring-results-gallery" class="project-gallery" data-sizes="2222">
 				<figure class="project-img">
 					<img src="tutoring-desktop.png" alt="Desktop version"></figure>
 				<figure class="project-img">

@@ -46,7 +46,7 @@ include('../../header.php');
 </section>
 <section id="project-results" class="container top-margin4" >
 	<h2 class="h3">The Final <span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Product</span> </h2>
-	<div class="project-gallery col12x">
+	<div id="ac-results-gallery" class="project-gallery col12x" data-sizes="4422">
 		<figure class="project-img">
 			<a href="ac-desktop03.PNG">
 				<img src="ac-desktop03.PNG" alt="Desktop view of version 2">

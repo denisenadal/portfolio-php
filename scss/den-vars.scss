@@ -7,15 +7,16 @@ $s2x: 24px;
 $s3x:36px;
 
 $colors : (
-	"pink": #ed008c,
-	"teal": #50f9e7,
-	"dark-teal":#0bd8d1,
+	"pink": #ff1fa2,
+	"teal": #7CFFE6,
+	"dark-teal":#00a1a5,
 	"yellow": #fef102,
-	"purple": #5500da,
+	"textdark": #686a8a,
 	"dark-purple": #20007b,
 	"ice-blue": #d9fcf8,
-	"lavender": #d7d2e8,
-	"white":#fff
+    "lavender":  #f0f1ff,
+    'purple':#B5CCEA,
+	"white":#feffff
 	);
 @function color($key) {
   @return map-get($colors, $key);

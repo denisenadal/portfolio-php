@@ -30,7 +30,7 @@ include('../../header.php');
 				<p  class="gd">I wanted to create a bold design that captured some of the "Old West" nostaglia of the 29 Mule story and frontier mining, while also being modern and forward-thinking.</p>
 				<p class="gd">I began this project with pencil thumbnails for ideas of a logo a design elements. After developing a logo and color palette, I designed the various business products.</p>
 			</div>
-			<div class="col12x project-gallery">
+			<div id="mule-process-gallery" class="col12x project-gallery" data-sizes="3332">
 				<figure class="project-img">
 					<a href="BusinessSystem_businessCardBack.jpg">
 						<img src="BusinessSystem_businessCardBack.jpg" alt="Business Card Back">
