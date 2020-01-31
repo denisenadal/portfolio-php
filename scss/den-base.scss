@@ -2,7 +2,7 @@
 @import 'typebase';
 /*!======= base styles =========*/
 *{box-sizing: border-box;}
-html,body{color: color('dark-purple');}
+html,body{color: color('textdark');}
 header{
 	.container,
 	nav{
@@ -22,7 +22,7 @@ header{
   		padding: 0;
   		margin: 0;
   		font-size: 1.25rem;
-		color:color('purple');
+		color:color('darkteal');
 		transition: $default-animation;
   	}
 
@@ -34,12 +34,12 @@ header{
 	}
 
 	nav a{
-	   color:color('purple');
+	   color:color('darkteal');
 	   font-family: $titleFont;
 	   font-size: 1.25rem;
 	   font-weight: 500;
 	   text-transform: uppercase;
-	   padding: .5rem;
+	   padding:.5rem 0.5rem .25rem;
 	   margin-left: .25rem;
 	   position: relative;
 	   transition: $default-animation;
@@ -71,7 +71,7 @@ header{
 	.mobile-btn-wrap {
 		display: block;
 		top: 1.5rem;
-		right: 3rem;
+		right: 1.5rem;
 		z-index: 100;
 		position: absolute;
 	}
@@ -168,7 +168,7 @@ header{
 		#logo-link{
 		   	width:30%;
 			&:hover .title-cursive{
-				color:color('yellow');
+				color:color('darkteal');
 			}
 			&:hover .subtitle{
 				color:color('pink');
@@ -177,33 +177,11 @@ header{
 
 		/*nav animations for desktop & tablet*/
 		nav a{
-			&::before, &::after{
-				content: '';
-				position: absolute;
-				border-style: solid;
-				border-color: transparent;
-				box-sizing: border-box;
-				height: 100%;
-				transition: $default-animation;
-			}
-			&::before{
-			   bottom: 0rem;
-			   left: -.75rem;
-			   border-width: 0 0 2.25rem .8rem;
-			}
-			&::after{
-				content: '';
-				top: 0rem;
-				right: -.75rem;
-				border-width:2.25rem .8rem 0 0;
-			}
+            border-bottom: dotted 5px transparent;
+			
 			&:hover{
-				background: color('pink');
-				color: color('yellow');
-			}
-			&:hover::before,
-			&:hover::after{
-				border-color: color('pink') transparent color('pink') transparent;
+                color: color('pink');
+                border-bottom: dotted 5px color('pink');
 			}
 		}
 	}
@@ -282,7 +260,7 @@ strong, .bold{
 
 .branding .subtitle,
 .branding .title {
-	color: color('purple');
+	color: color('darkteal');
 	font-size: 2.2rem;
 	line-height: 2.6rem;
 }
@@ -300,7 +278,7 @@ strong, .bold{
 }
 
 .section-title {
-	color: color('purple');
+	color: color('darkteal');
 	font-family: $titleFont;
 	position: relative;
 	width: 100%;
@@ -392,7 +370,7 @@ a.btn {
     line-height: 100%;
 }
 [type=submit]:hover,[type=submit]:focus{
-	background:color('dark-purple');
+	background:color('textdark');
 	box-shadow:0px 0px 3px 2px rgba(50, 50, 50, 0.2);
 	transition: background .3s ease, box-shadow .3s ease;
 }

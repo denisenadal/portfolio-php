@@ -1,5 +1,5 @@
 /*!======= variables =========*/
- @import url('https://fonts.googleapis.com/css?family=Assistant:300,600|Lily+Script+One|Open+Sans:300i,600i|Oswald:500,600');
+ @import url('https://fonts.googleapis.com/css?family=Assistant:300,600|Oleo+Script+Swash+Caps|Open+Sans:300i,600i|Oswald:500,600');
 
 $s1x: 12px;
 $s1-5x: 18px;
@@ -9,7 +9,7 @@ $s3x:36px;
 $colors : (
 	"pink": #ff1fa2,
 	"teal": #7CFFE6,
-	"dark-teal":#00a1a5,
+	"darkteal":#00a1a5,
 	"yellow": #fef102,
 	"textdark": #686a8a,
 	"dark-purple": #20007b,
@@ -17,13 +17,14 @@ $colors : (
     "lavender":  #f0f1ff,
     'purple':#B5CCEA,
 	"white":#feffff
-	);
+    );
+    
 @function color($key) {
   @return map-get($colors, $key);
 }
 
 $bodyFont: 'Assistant', sans-serif;
-$cursiveFont: 'Lily Script One', cursive;
+$cursiveFont: 'Oleo Script Swash Caps', cursive;
 $titleFont: 'Oswald', sans-serif;
 $default-animation : .25s ease-in;
 $materialShadow: 0 8px 6px -6px rgba(0,0,0,.2),  0 0 1px 1px rgba(0,0,0,.06);
