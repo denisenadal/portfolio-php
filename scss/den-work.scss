@@ -5,7 +5,7 @@ body.uiux .gd,
 body.gd.dev,
 body.gd .uiux,
 body.dev .gd,
-body.dev .uiux,{
+body.dev .uiux{
 	display: none;
 }
 body.dev .dev,
@@ -92,7 +92,7 @@ main .section-break{
 .caption-quote {
     color: #691cdf;
     font-weight: bold;
-    font-family: Open Sans;
+    font-family: Montserrat;
     font-style: italic;
     font-size: 1.6rem;
     letter-spacing: .023rem;

@@ -18,11 +18,20 @@ if(in_array(false, array($fullname, $emailaddress, $message)) ){
 }
 
 $email_message = " From: ".$fullname."\n Company: ".$company."\n Email: ".$emailaddress."\n Phone: ".$phonenumber."\n Preferred Contact: ".$preferred."\n\n".$message ;
-mail("denisenadal@outlook.com","New Comment from denisenadal.com",$email_message,"From: mailer@denisenadal.com");
-//send success message to client
+if(mail("denisenadal@outlook.com","New Comment from denisenadal.com",$email_message,"From: mailer@denisenadal.com");){
+	//send success message to client
 header('Content-Type: application/json');
 echo json_encode(array(
 	'status'=>'Success!',
 	'message'=>'Thank you for your message. Denise will be getting in contact with you shortly!'
 ));
+}
+else{
+	header('Content-Type: application/json');
+echo json_encode(array(
+	'status'=>'fail!',
+	'message'=>'WHOOOPS!'
+));
+}
+
 exit();

@@ -17,6 +17,8 @@ define( 'DEN_ROOT', 'http://localhost:8000/' );
 		echo '<link rel="stylesheet" href="'. DEN_ROOT.'css/'.$stylesheet.'.css">';
 	}
 }?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body class=" <?php if(isset($pageVars['category']) ){ echo $pageVars['category'];} ?>">

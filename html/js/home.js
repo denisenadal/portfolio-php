@@ -24,13 +24,7 @@ var macy;
 jQuery(document).ready(function($) {
 	//make sure correct work gallery is shown on page load
 	setActiveGallery();
-
-
-
-	//hide logo if on intro or contact page
-	if ($('section.intro').hasClass('active')) {
-		$('#logo-link').css('visibility', 'hidden');
-	}
+	hideNavLogo();
 
 	//show active gallery indicator on click
 	$('.section-menu a').click(function() {
@@ -40,6 +34,7 @@ jQuery(document).ready(function($) {
 
 	//init the page scroller
 	$('#content-sections-wrap').fullpage({
+		licenseKey:'8E3DF562-885C4E1C-BF04331E-5E335FCF',
 		//Navigation
 		menu: '#main-menu',
 		navigation: false,
@@ -49,12 +44,13 @@ jQuery(document).ready(function($) {
 
 		//Scrolling
 		css3: true,
-		scrollingSpeed: 700,
+		scrollingSpeed: 800,
 		autoScrolling: true,
 		fitToSection: true,
 		fitToSectionDelay: 1000,
 		scrollBar: true,
 		scrollHorizontally: false,
+		// scrollOverflow: true,
 		easingcss3: 'ease-in-out',
 		fadingEffect: true,
 		bigSectionsDestination: 'top',
@@ -68,7 +64,7 @@ jQuery(document).ready(function($) {
 
 		//Design
 		paddingTop: '4rem',
-		paddingBottom: '2rem',
+		paddingBottom: '4rem',
 		fixedElements: '#main-header',
 		responsiveWidth: 768,
 		responsiveHeight: 600,
@@ -83,11 +79,7 @@ jQuery(document).ready(function($) {
 		},
 		afterLoad: function(anchorLink, i) {
 			//hide logo on contact screen
-			if (anchorLink === 'intro') {
-				$('#logo-link').css('visibility', 'hidden');
-			} else {
-				$('#logo-link').css('visibility', 'visible');
-			}
+			hideNavLogo();
 			// if (anchorLink === 'skills') {
 			// 	//do skill stuff
 			// 	$('.skill-level').each(function(el, i) {
@@ -106,9 +98,7 @@ jQuery(document).ready(function($) {
 		},
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
             if (anchorLink === 'work') {
-				//after slide has loaded resize the section
-				var active_height = $('#work-section .works-gallery .row').eq(slideIndex).innerHeight();
-				$('#work-section .fp-slidesContainer').height(active_height);
+				resizeWorksGallery();
 			}
 		},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
@@ -145,9 +135,7 @@ jQuery(document).ready(function($) {
 				}
 			});
 
-			//fix work container hieght on init
-			var active_height = $('#work-section .works-gallery.active .row').innerHeight();
-			$('#work-section .fp-slidesContainer').height(active_height);
+			resizeWorksGallery();
 		}
 	});
 
@@ -160,7 +148,7 @@ jQuery(document).ready(function($) {
 			dataType: 'text',
 			contentType: 'application/x-www-form-urlencoded'
 		}).done(function(resp) {
-			$('#contact-section form').html('<h2 class="title-2 card-title no-margin">Success</h2><div class="row"><div class="col12s">Thanks for your message! Denise will be in contact with you shortly.</div></div>');
+			$('#contact-section form').html('<h2 class="title-2 card-title no-margin">'+resp.status+'</h2><div class="row"><div class="col12s">'+resp.message+'</div></div>');
 		});
 	});
 });
@@ -179,4 +167,20 @@ function setActiveGallery() {
 		$('#work-section .fp-slidesContainer').height(height);
 	}
 	return;
+}
+
+function resizeWorksGallery(){
+	//fix work container hieght on init
+	var active_height = $('#work-section .works-gallery.active .row').innerHeight();
+	$('#work-section .fp-slidesContainer').height(active_height);
+}
+
+function hideNavLogo(){
+		//hide logo if on intro or contact page
+	if ($('.section.intro, .section.contact').hasClass('active')) {
+		$('#logo-link').css('visibility', 'hidden');
+	}
+	 else {
+				$('#logo-link').css('visibility', 'visible');
+			}
 }

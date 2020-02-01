@@ -2,7 +2,7 @@
 $pageVars = array(
 	'css' => array('den-home','jquery.fullpage.min'),
 	'title' => '',
-	'js'	=>array('jquery.fullpage.min','jquery.fullpage.extensions.min','fit.min','macy','home')
+	'js'	=>array('scrolloverflow.min','jquery.fullpage.min','jquery.fullpage.extensions.min','fit.min','macy','home')
 );
 include('header.php');
 ?>
@@ -58,7 +58,7 @@ include('header.php');
                     <div id="ui-pm-home-maintenance" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/pm-home-maintenance/pitchDeck-Title.png" alt="design for subscription home maintenance service">
-                            <h3 class="title3 h4">Home Maintenance Service</h3>
+                            <h3 class="title3 h4 top-margin">Home Maintenance Service</h3>
                             <p class="work-summary">Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors<br>
                             <span class="float-right"><a href="projects/pm-home-maintenance/details.php?type=uiux">details</a></span></p>
                         </article>
@@ -66,7 +66,7 @@ include('header.php');
 					<div id="ui-pm-ux-research" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/pm-ux-research/system-map.jpg" alt="Creating a mental map of our users and the ecosystem">
-                            <h3 class="title3 h4">A Day in the Life</h3>
+                            <h3 class="title3 h4 top-margin">A Day in the Life</h3>
                             <p class="work-summary">What is it like to work for an HVAC company as a technician? or a dispatcher? What does your day look like? How do you run a maintenance, repair or install job? <br>
                             <span class="float-right"><a href="projects/pm-ux-research/details.php?type=uiux">details</a></span></p>
                         </article>
@@ -74,51 +74,36 @@ include('header.php');
 					<div id="ui-pm-customer-summary" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/pm-customer-summary/summary-cover.png" alt="Design exploration for job and customer screens in the Pointman App">
-                            <h3 class="title3 h4">Job & Customer Screens</h3>
+                            <h3 class="title3 h4 top-margin">Job & Customer Screens</h3>
                             <p class="work-summary">Ongoing design improvements to critical screens in the Pointman app. <br>
                             <span class="float-right"><a href="projects/pm-customer-summary/details.php?type=uiux">details</a></span></p>
-                        </article>
-                    </div> 
-                    <div id="ui-pm-workflows" class="work-listing col3l col4m col6s col12x">
-                        <article class="white-bg work-listing pad2 material clearfix">
-                            <img class="thin-border" src="projects/pm-workflows/v03workflow-wires.png" alt="logo design for pm-workflows app">
-                            <h3 class="title3 h4">Job Scheduling Experience</h3>
-                            <p class="work-summary">Redesigning the whole Pointman app starting with the job scheduling experience for HVAC office staff <br>
-                            <span class="float-right"><a href="projects/pm-workflows/details.php?type=uiux">details</a></span></p>
                         </article>
                     </div> 
                     <div id="ui-pm-tech-exp" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/pm-tech-exp/v03jobinfo-mobile.png" alt="logo design for pm-tech-exp app">
-                            <h3 class="title3 h4">Guided User Experiences</h3>
+                            <h3 class="title3 h4 top-margin">Guided User Experiences</h3>
                             <p class="work-summary">Designing a new UI to create intuitive guided workflows so CSR's can schedule work faster and techs can complete jobs faster.<br>
                             <span class="float-right"><a href="projects/pm-tech-exp/details.php?type=uiux">details</a></span></p>
                         </article>
-                    </div> 
-                    <div id="ui-pm-invoices" class="work-listing col3l col4m col6s col12x">
+					</div> 
+					<div id="ui-pm-reporting" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
-                            <img class="thin-border" src="projects/pm-invoices/v01design.png" alt="design for improved invoice layout">
-                            <h3 class="title3 h4">Invoice Templates</h3>
-                            <p class="work-summary">Improving the layout of system generated invoices to improve user satisfaction and reduce paper waste.<br>
-                            <span class="float-right"><a href="projects/pm-invoices/details.php?type=uiux">details</a></span></p>
+                            <img class="thin-border" src="projects/pm-reporting/report-cover2.png" alt="logo design for pm-reporting app">
+                            <h3 class="title3 h4 top-margin">Reporting Dasboards</h3>
+                            <p class="work-summary">UI design for various business reporting dashboards for HVAC business owners <br>
+                            <span class="float-right"><a href="projects/pm-reporting/details.php?type=uiux">details</a></span></p>
                         </article>
                     </div> 
                     <div id="ui-pm-iq" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/pm-iq/iq-cover.png" alt="quote presentation design">
-                            <h3 class="title3 h4">Job Quote & Invoicing System</h3>
+                            <h3 class="title3 h4 top-margin">Job Quote & Invoicing System</h3>
                             <p class="work-summary">UI/UX design a new way to build customizable invoices & quotes. <br>
                             <span class="float-right"><a href="projects/pm-iq/details.php?type=uiux">details</a></span></p>
                         </article>
                     </div> 
-					<div id="ui-pm-reporting" class="work-listing col3l col4m col6s col12x">
-                        <article class="white-bg work-listing pad2 material clearfix">
-                            <img class="thin-border" src="projects/pm-reporting/report-cover2.png" alt="logo design for pm-reporting app">
-                            <h3 class="title3 h4">Reporting Dasboards</h3>
-                            <p class="work-summary">UI design for various business reporting dashboards for HVAC business owners <br>
-                            <span class="float-right"><a href="projects/pm-reporting/details.php?type=uiux">details</a></span></p>
-                        </article>
-                    </div> 
+
 
 				</div>
             </section>
@@ -128,7 +113,7 @@ include('header.php');
 					<div id="ui-dixie"  class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/dixie-portals/students-portalFINAL.jpg" alt="dixie.edu students homepage and dashboard">
-                            <h3 class="title3 h4">dixie.edu Web Portals</h3>
+                            <h3 class="title3 h4 top-margin">dixie.edu Web Portals</h3>
                             <p class="work-summary">redesigning dashboards for specific user groups with a focus on usability. <br>
                             <span class="float-right"><a href="projects/dixie-portals/details.php?type=uiux">details</a> | <a href="http://students.dixie.edu">live</a></span></p>
                         </article>
@@ -136,7 +121,7 @@ include('header.php');
 					<div id="strange-horizons" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/strange-horizons/strange_horizons_preview.jpg" alt="Mockups of potential redesign for Strange Horizons magazine">
-                            <h3 class="title3 h4">Strange Horizons Magazine</h3>
+                            <h3 class="title3 h4 top-margin">Strange Horizons Magazine</h3>
                             <p class="work-summary">Hi-fidelity mockups of a potential site redesign <br>
                             <span class="float-right"><a href="projects/strange-horizons/details.php?type=uiux">details</a></span></p>
                         </article>
@@ -144,7 +129,7 @@ include('header.php');
 					<div id="ui-critiqueit" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/critique-it/critiqueit02.jpg" alt="Example user page for critique it app">
-                            <h3 class="title3 h4">Critique It</h3>
+                            <h3 class="title3 h4 top-margin">Critique It</h3>
                             <p class="work-summary">UI design for a prototype web app. <br>
                             <span class="float-right"><a href="projects/critique-it/details.php?type=uiux">details</a> | <a href="http://critique-it.herokuapp.com/#/">live version</a></span></p>
                         </article>
@@ -152,7 +137,7 @@ include('header.php');
 					<div id="ui-personal" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/personal/mockup-intro.jpg" alt="example use of denise nadal's personal branding system">
-                            <h3 class="title3 h4">Personal Portfolio v1</h3>
+                            <h3 class="title3 h4 top-margin">Personal Portfolio v1</h3>
                             <p class="work-summary">UI/UX design for this site. <br>
                             <span class="float-right"><a href="projects/personal/details.php?type=uiux">details</a></span></p>
                         </article>
@@ -160,7 +145,7 @@ include('header.php');
 					<div id="ui-flickerfeed" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/flickr-feed/flickrfeed-desktop-searchresults.png" alt="example search results for flickr feed demo project">
-                            <h3 class="title3 h4">Flickr Feed Project</h3>
+                            <h3 class="title3 h4 top-margin">Flickr Feed Project</h3>
                             <p class="work-summary">UI design for simple web app project <br>
                             <span class="float-right"><a href="projects/flickr-feed/details.php?type=uiux">details</a> | <a href="https://flickrfeed.glitch.me/">live demo</a></span></p>
                         </article>
@@ -176,7 +161,7 @@ include('header.php');
 					<div id="uiux-spilker" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/spilker/spilker-branding.jpg" alt="Mockups of digital and print branding for spilker custom homes">
-                            <h3 class="title3 h4">Spilker Custom Homes Site redesign</h3>
+                            <h3 class="title3 h4 top-margin">Spilker Custom Homes Site redesign</h3>
                             <p class="work-summary">site design for a local home builder <br>
                             <span class="float-right"><a href="projects/spilker/details.php?type=uiux">details</a> | <a href="http://spilkercustomhomes.com">live</a></span></p>
                         </article>
@@ -184,7 +169,7 @@ include('header.php');
 					<div id="uiux-campusmaps" class="work-listing col3l col4m col6s col12x">
                         <article class="white-bg work-listing pad2 material clearfix">
                             <img class="thin-border" src="projects/campus-maps/campusmap-large.png" alt="dixie.edu campus maps page as viewed on a desktop">
-                            <h3 class="title3 h4">dixie.edu Campus Maps</h3>
+                            <h3 class="title3 h4 top-margin">dixie.edu Campus Maps</h3>
                             <p class="work-summary">single page web app used to display information about buildings on campus. App is hosted on a customized WordPress template. <br>
                             <span class="float-right"><a href="projects/campus-maps/details.php?type=uiux">details</a> | <a href="https://dixie.edu/campus-maps">live page</a></span></p>
                         </article>
@@ -395,7 +380,7 @@ include('header.php');
 			<div class="flex-row flex-wrap outdent">
 				<!-- TODO add in animation here-->
 				<div class="branding col12x col4s col5m col6l">
-					<h1 class="title"><span class="title">Contact</span><br><span class="title-cursive">Denise Nadal</h1>
+					<h1 class="title"><span class="subtitle">Contact</span><br><span class="title-cursive">Denise Nadal</h1>
 					<p class="content top-margin">Want to hire me? Send me a message or find me on <a href="https://www.facebook.com/denise.nadal.52">facebook</a>, <a href="https://www.linkedin.com/in/denise-nadal/">linkedin</a>, <a href="https://www.ziprecruiter.com">zipRecruiter</a>, or <a href="https://resumes.indeed.com/resume/d2257fa8f36ba3fd">indeed</a>. You can always email me at <a href="mailto:denise@denisenadal.com">denise@denisenadal.com</a> if you want to chat!</p>
 				</div>
 				<div class="col12x col8s col7m col6l">
@@ -424,7 +409,7 @@ include('header.php');
 							</div>
 						</div>
 						<div class="slim row">
-							<div class="slim col12s left-edge">
+							<div class="slim col12s left-edge center-text">
 								<input id="contact-form-submit" type="submit" value="Send">
 							</div>
 						</div>

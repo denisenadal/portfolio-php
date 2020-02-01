@@ -1,6 +1,6 @@
 /* For easy grading search this document for A11 for transition effects  */
 
-@import 'https://fonts.googleapis.com/css?family=Francois+One|Pacifico|Assistant:300,600';
+@import 'https://fonts.googleapis.com/css?family=Francois+One|Pacifico|Montserrat:300,600';
 
 /* wp editor*/
 #wpadminbar{
@@ -22,7 +22,7 @@ max-width:100%;
 	display:none;
 }
 html,body{
-	font-family: 'Assistant', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	min-height:100vh;
 	font-size:16px;
 	background:hsla(174, 76%, 58%,1);/*teal*/
@@ -48,12 +48,12 @@ h2{
 }
 h4{
 	text-transform: none;
-	font-family: 'Assistant',sans-serif;
+	font-family: 'Montserrat',sans-serif;
 	font-weight: 700;
 	margin: 1rem 0 -.5rem;
 }
 p, .text, input, label{
-	font-family: 'Assistant', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size:1rem;
 	color:rgb(33,0,124);
 	padding:.5rem 0;
@@ -474,7 +474,7 @@ width:768px;
 a.portfolio_link:hover:after{
 	height: auto;
     bottom: 0;
-    top: 65%;}
+    top: 65%;
 }
 
 
@@ -548,7 +548,7 @@ td[colspan="2"]:last-child:first-child {
     display: table-cell;
     background: none;
     text-transform: none;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 tr.skills-subhead > td:last-child:first-child{
 	border-top:2rem solid #fff;
@@ -582,7 +582,7 @@ td > img{
 	line-height:2rem;
 }
 #experience main h3{
-	font-family: 'Assistant', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:bold;
 	font-size:1rem;
 	line-height:1.3rem;
