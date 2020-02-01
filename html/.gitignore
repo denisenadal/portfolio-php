@@ -44,3 +44,10 @@ Thumbs.db
 *.tiff
 *.bmp
 *.zip
+
+# MISC #
+######################
+.sass-cache
+notes
+assets
+mockups
