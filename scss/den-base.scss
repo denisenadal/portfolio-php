@@ -224,7 +224,12 @@ header {
 
       &:hover {
         color: color("pink");
-        border-bottom: dotted 5px color("pink");
+        border-color: color("pink");
+      }
+
+      &.active{
+         color: color("yellow");
+        border-color: color("yellow");
       }
     }
   }

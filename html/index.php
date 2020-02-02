@@ -2,7 +2,7 @@
 $pageVars = array(
 	'css' => array('den-home','jquery.fullpage.min'),
 	'title' => '',
-	'js'	=>array('scrolloverflow.min','jquery.fullpage.min','jquery.fullpage.extensions.min','fit.min','macy','home')
+	'js'	=>array('scrolloverflow.min','jquery.fullpage.min','jquery.fullpage.extensions.min','fit.min','macy','projects','home')
 );
 include('header.php');
 ?>
