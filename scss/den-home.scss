@@ -1,286 +1,358 @@
 @import "den-vars";
 
 body {
-  background: color("purple");
-  overflow-x: hidden !important;
-  max-width: 100vw;
+    background: color("purple");
+    overflow-x: hidden !important;
+    max-width: 100vw;
+
 }
-/* body[class^="fp-viewing-work"] #main-header {
-    background-color: #B5CCEA;
-} */
 
 main {
-  > section,
-  > section.container {
-    min-height: 100vh;
-    max-width: 100%;
-    position: relative;
-    z-index: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+    > section,
+    > section.container {
+        min-height: 100vh;
+        max-width: 100%;
+        position: relative;
+        z-index: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+//=================   slide bgs   ===================//
+
+    #intro-section {
+        background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
+    }
+    #about-section {
+        background: color("teal");
+        background: linear-gradient(0deg, color("purple") 0%, color("teal") 100%);
+    }
+    #skills-section {
+        background: linear-gradient(to bottom, color("teal") 20%, #fff);
+    }
+
+    #work-section {
+        background: color("teal");
+        background: linear-gradient(0deg, color("teal") 0%, color("purple") 100%);
+
+    }
+
+    #experience-section {
+        background: linear-gradient(0deg,color("purple") 0%, color("teal") 100%);
+    }
+
+    #contact-section {
+        background: linear-gradient(0deg,  color("teal") 0%, color("purple") 100%);
+    }
+
+//=================   intro   ===================//
+#intro-bgtop {
+  background: 70vw -30vh/40vw auto url("../images/montsera3down.png");
+   background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: visible;
+    opacity: 0.85;
 }
 #intro-bg {
-  display: none;
-}
-#contact-bg {
-  height: 100vh;
-  position: absolute;
-  width: 200vw;
-  z-index: -1;
-  transform: rotate(-30deg);
-  left: -50vw;
-  top: 0;
-  overflow:hidden;
-}
-
-#contact-overflow {
-  height: 100vh;
-  position: absolute;
-  width: 200vw;
-  z-index: -1;
-  transform: rotate(-30deg);
-  left: -50vw;
-  bottom: -100vh;
-  background: color("yellow");
+    background: -10vw 0/40vw auto url("../images/montsera01.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    left: 0;
+    top: 70vh;
+    z-index: -1;
+    overflow: visible;
+    opacity: 0.85;
 }
 
 #intro-section {
-  background: #f0f1ff;
-  background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
+    z-index:1;
 
-  .container {
-    display: flex;
-    flex-flow: column nowrap;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: left;
-    align-content: center;
-    max-height: 100%;
-  }
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: left;
+        align-content: center;
+        max-height: 100%;
+        width:100%;
+        padding:0;
+        margin:0;
+    }
 
-  .title {
-    margin: 1rem 0;
-    padding: 0;
-    line-height: 100%;
-  }
+    .intro-content {
+        background: url("../images/swoosh1.png") no-repeat top left;
+        background-size: auto;
+        background-size: 600px 180px;
+        background-position: 4px 15px;
+        padding: 2rem 10vw;
+    }
+
+    .title {
+        margin: 1rem 0;
+        padding: 0;
+        line-height: 100%;
+    }
 }
+
+//=================   about  ===================//
 
 #about-section {
-  background: color("teal");
-  background: linear-gradient(0deg, color("purple") 0%, color("teal") 100%);
-  position: relative;
-  z-index: 0;
-
-  figure {
-    width: 25%;
-    max-width: 200px;
-  }
+    figure {
+        width: 25%;
+        max-width: 200px;
+    }
 }
+//=================   work ===================//
 
 #work-section {
-  background: color("teal");
-  background: linear-gradient(0deg, color("purple") 0%, color("purple") 100%);
+    .section-menu {
+        margin: 1rem 0 0.5rem 0;
+        display: flex;
+        width: 100%;
 
-  .section-menu {
-    margin: 1rem 0 0.5rem 0;
-    display: flex;
-    width: 100%;
+        a {
+            background: white;
+            padding: 1rem 2rem;
+            flex-grow: 1;
+            text-align: center;
+            font-family: $titleFont;
+            text-transform: uppercase;
+            font-size: 1.33rem;
+            color: color("pink");
+            border-bottom: 0.3rem solid #f1f1f1;
+            border-right: 0.3rem solid #f1f1f1;
+            margin: 0.25rem;
+        }
 
-    a {
-      background: white;
-      padding: 1rem 2rem;
-      flex-grow: 1;
-      text-align: center;
-      font-family: $titleFont;
-      text-transform: uppercase;
-      font-size: 1.33rem;
-      color: color("pink");
-      border-bottom: 0.3rem solid #f1f1f1;
-      border-right: 0.3rem solid #f1f1f1;
-      margin: 0.25rem;
+        a.active {
+            background: color("yellow");
+            border-color: #f9e866;
+        }
+
+        a:focus,
+        a:hover {
+            background: color("pink");
+            color: color("yellow");
+            border-color: #c9077a;
+        }
     }
 
-    a.active {
-      background: color("yellow");
-      border-color: #f9e866;
+    .work-item-wrapper {
+            padding: .5rem;
+        }
+
+    .work-summary {
+        font-size: 0.9rem;
+        line-height: 1.65;
     }
 
-    a:focus,
+    .fp-section.fp-table,
+    .fp-slide.fp-table {
+        padding: 0 10px;
+    }
+
+}
+
+#fp-nav ul,
+.fp-slidesNav ul {
+    text-align: center;
+
     a:hover {
-      background: color("pink");
-      color: color("yellow");
-      border-color: #c9077a;
+        border-color: transparent;
+        color: color("darkpurple");
     }
-  }
-
-.work-summary {
-  font-size: 0.9rem;
-  line-height: 1.65;
 }
 
-
-  .fp-section.fp-table,
-  .fp-slide.fp-table {
-    padding: 0 2px;
-  }
-  .fp-controlArrow,
-  .fp-slidesNav.bottom {
-    display: none;
-  }
-}
-
-#fp-nav ul, .fp-slidesNav ul{
-	text-align:center;
-
-	a:hover {
-		border-color: transparent;
-		color:color('darkpurple');
-	}
-}
-
-#skills-section {
-  background: linear-gradient(to bottom, color("teal") 20%, #fff);
-
-  h1 {
-    padding-bottom: 0;
-  }
-
-  h2 {
-    margin: 0 0 0.5rem;
-  }
-
-  .skill-list li {
-    list-style: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0.25rem 0;
-    display: flex;
-  }
-
-  .skill-name {
-    font-weight: normal;
-    font-family: $titleFont;
-    color: color("darkteal");
-  }
-
-  .skill-level {
-    display: inline-block;
-    background: color("dark-teal");
-    /*dark teal*/
-    flex-grow: 1;
-    margin-left: 1rem;
-    color: transparent;
-
-    .bar {
-      background: color("pink");
-      width: 0;
-      height: 100%;
+@media screen and (max-width: 768px) {
+    #work-section .section-menu {
+        flex-flow: column nowrap;
     }
-  }
-}
-
-#experience-section {
-  background: linear-gradient(to bottom, color("purple") 0%, color("teal") 100%);
-
-  .job_extras .h4 {
-    font-size: 1rem;
-    color: color("dark-teal");
-  }
-
-  .fp-tableCell {
-    vertical-align: top;
-  }
-
-  .fp-controlArrow.fp-prev {
-    border-color: transparent color("pink") transparent transparent;
-  }
-  .fp-controlArrow.fp-prev:hover {
-    border-color: transparent color("teal") transparent transparent;
-  }
-  .fp-controlArrow.fp-next {
-    border-color: transparent transparent transparent color("pink");
-  }
-  .fp-controlArrow.fp-next:hover {
-    border-color: transparent transparent transparent color("pink");
-  }
-
-  .fp-slidesNav.bottom a:hover,
-  .fp-slidesNav.bottom li:hover {
-    background: none;
-    color: color("pink");
-
-    &:after,
-    &:before {
-      display: none;
+    #work-section div.work-listing {
+        padding: 1rem 0;
     }
-  }
 }
 
-#contact-section {
-  background: linear-gradient(0deg, #d3d6ff 0%, color("teal") 100%);
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  height: 100vh;
-}
-#main-footer {
-  position: relative;
-  top: -60px;
-}
 @media screen and (min-width: 769px) {
-  #work-section {
-    .row .col12x {
-      padding: 1rem;
+    #work-section {
+        .row .col12x {
+            padding: 1rem;
+        }
+
+        .row.side-outdent {
+            margin: auto -1rem;
+            max-width: calc(100% + 2rem) !important;
+        }
+    }
+}
+
+
+//=================   skills ===================//
+#skills-section {
+    h1 {
+        padding-bottom: 0;
     }
 
-    .row.side-outdent {
-      margin: auto -1rem;
-      max-width: calc(100% + 2rem) !important;
+    h2 {
+        margin: 0 0 0.5rem;
     }
-  }
 
-  #skills-section .container {
-    max-height: calc(100vh - 120px);
-  }
+    .skill-list li {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0.25rem 0;
+        display: flex;
+    }
+
+    .skill-name {
+        font-weight: normal;
+        font-family: $titleFont;
+        color: color("darkteal");
+    }
+
+    .skill-level {
+        display: inline-block;
+        background: color("dark-teal");
+        /*dark teal*/
+        flex-grow: 1;
+        margin-left: 1rem;
+        color: transparent;
+
+        .bar {
+            background: color("pink");
+            width: 0;
+            height: 100%;
+        }
+    }
 }
 @media screen and (max-width: 768px) {
-  #work-section .section-menu {
-    flex-flow: column nowrap;
-  }
-  #work-section div.work-listing {
-    padding: 1rem 0;
-  }
-
-  #skills-section .skill-set {
-    margin: 1rem 0 1rem 0;
-  }
-  #experience-section {
-    .fp-controlArrow {
-      top: 12rem;
+    #skills-section .skill-set {
+        margin: 1rem 0 1rem 0;
     }
-    .heading-group {
-      margin-left: 2rem;
-    }
+}
 
-    .fp-tableCell {
-      padding: 0 1px;
-    }
-  }
+@media screen and (min-width: 769px) {
 
-  #contact-section,
-  #contact-section .fp-tableCell {
-    min-height: 1000px;
-    height: 100% !important;
-  }
-  #contact-section .form {
-    margin-top: 2rem;
+    #skills-section .container {
+        max-height: calc(100vh - 120px);
+    }
+}
+//=================   experience ===================//
+
+#experience-section {
+
+  .work-item{
+    margin:2rem;
+    
+    > div {
+      margin-top:2rem;
+    }
   }
 }
+
+@media screen and (max-width: 768px) {
+    #experience-section {
+        .fp-controlArrow {
+            top: 12rem;
+        }
+        .heading-group {
+            margin-left: 2rem;
+        }
+
+        .fp-tableCell {
+            padding: 0 1px;
+        }
+    }
+}
+
+//=================   contact  ===================//
+#contact-section {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#contact-bg {
+    height: 100vh;
+    position: absolute;
+    width: 200vw;
+    z-index: -1;
+    transform: rotate(-30deg);
+    left: -50vw;
+    top: 0;
+    overflow: hidden;
+}
+
+#contact-overflow {
+    height: 100vh;
+    position: absolute;
+    width: 200vw;
+    z-index: -1;
+    transform: rotate(-30deg);
+    left: -50vw;
+    bottom: -100vh;
+    background: color("yellow");
+}
+
 @media screen and (max-width: 540px) {
-  #contact-section,
-  #contact-section .fp-tableCell {
-    height: 100% !important;
-    min-height: 1200px !important;
-  }
+    #contact-section,
+    #contact-section .fp-tableCell {
+        height: 100% !important;
+        min-height: 1200px !important;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    #contact-section,
+    #contact-section .fp-tableCell {
+        min-height: 1000px;
+        height: 100% !important;
+    }
+    #contact-section .form {
+        margin-top: 2rem;
+    }
+}
+//=================   footer  ===================//
+
+
+#main-footer {
+    position: relative;
+    top: -60px;
+}
+//=================   3rd party overrides  ===================//
+
+  .fp-controlArrow.fp-next,
+  .fp-controlArrow.fp-prev {
+    border:none;
+  }
+  .fp-controlArrow.fp-prev::after,
+  .fp-controlArrow.fp-next::after {
+    color: color('textdark');
+      font-weight: 300;
+      font-size: 102px;
+      position: absolute;
+      font-family: Montserrat;
+  }
+    .fp-controlArrow.fp-prev::after {
+      content: "«";
+      left: -2px;
+      
+    }
+    
+    .fp-controlArrow.fp-next::after {
+      content: "»";
+      right: -2px;
+    }
+
+    .fp-controlArrow.fp-prev:hover::after,
+    .fp-controlArrow.fp-next:hover::after {
+      color: color('darkpurple');
+    }
