@@ -1,6 +1,6 @@
 <?php
-//define( 'DEN_ROOT', 'https://denisenadal.com/' );
-define( 'DEN_ROOT', 'http://localhost:8000/' );
+define( 'DEN_ROOT', 'https://denisenadal.com/' );
+//define( 'DEN_ROOT', 'http://localhost:8000/' );
 ?>
 <!DOCTYPE html>
 <html lang="en">

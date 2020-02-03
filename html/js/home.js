@@ -73,7 +73,7 @@ $('#contact-section form').on('submit', function (event) {
 		dataType: 'text',
 		contentType: 'application/x-www-form-urlencoded'
 	}).done(function (resp) {
-		$('#contact-section form').html('<h2 class="title-2 card-title no-margin">' + resp.status + '</h2><div class="row"><div class="col12s">' + resp.message + '</div></div>');
+		$('#contact-section form').html('<h2 class="h2 card-title no-margin">' + resp.status + '</h2><div class="row"><div class="col12s">' + resp.message + '</div></div>');
 	});
 });
 

@@ -163,7 +163,8 @@ main > section.container {
     .work-item > div {
       padding: 2rem; } }
 .contact .bg-top-right {
-  top: -20vh; }
+  top: -20vh;
+  background-position: 70vw 0vh; }
 
 #main-footer {
   position: relative;
