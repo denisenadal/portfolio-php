@@ -12,17 +12,17 @@ include('../../header.php');
     <section id="project-intro"
              class="container">
         <div class="flex-row outdent flex-vcenter">
-            <img src="v01design.png"
-                 alt="design for improved invoice layout"
-                 class="col5l col5m col4s col12x vertical">
+            <div class="preview-image col5l col5m col4s col12x vertical">
+                <img src="v01design.png"
+                 alt="design for improved invoice layout">
+            </div>
             <div class="col7l col7m col8s col12x">
                 <h1 class="project-title h1">Invoice Template Design</h1>
                 <p class="h4 project-date uiux">UI/UX Design </p>
                 <p class="h4 project-date dev">Dev</p>
                 <p class="h4 project-date gd">Design</p>
                 <h2 class="h3">Summary</h2>
-                <p>Improving the layout of system generated invoices to improve user satisfaction and reduce paper
-                    waste.</p>
+                <p>Improving the layout of system generated invoices to improve user satisfaction and reduce paper waste.</p>
             </div>
         </div>
     </section>

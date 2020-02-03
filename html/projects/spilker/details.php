@@ -11,7 +11,7 @@ include('../../header.php');
 <main id="content-sections-wrap">
 <section id="project-intro" class="container">
 	<div class="flex-row outdent flex-vcenter">
-		<div class="col5l col5m col4s col12x">
+		<div class="preview-image col5l col5m col4s col12x">
 			<img src="spilker-branding.jpg" alt="mockup of full branding system" class="gd">
 			<img src="spilker-set.jpg" alt="mockup of website on all screens" class=" uiux">
 

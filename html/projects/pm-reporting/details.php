@@ -12,9 +12,10 @@ include('../../header.php');
     <section id="project-intro"
              class="container">
         <div class="flex-row outdent flex-vcenter">
-            <img src="report-cover2.png"
-                 alt="Reporting Dashboard Design"
-                 class="col5l col5m col4s col12x">
+            <div class="preview-image col5l col5m col4s col12x">
+                <img src="report-cover2.png"
+                 alt="Reporting Dashboard Design">
+            </div>
             <div class="col7l col7m col8s col12x">
                 <h1 class="project-title h1">Reporting Dashboards</h1>
                 <p class="h4 project-date uiux">UI/UX Design <br>Fall 2018 - Spring 2019</p>
@@ -30,14 +31,12 @@ include('../../header.php');
     <section id="project-process"
              class="accent-bar">
         <div class="container clearfix">
-            <div class="row outdent pad1">
-                <h2 class="h3 col12x no-vpad float-left">Design Process</h2>
-            </div>
+            <h2 class="h3 left-margin">Design Process</h2>
             <div class="row ">
                 <div id="customer-summary-process-gallery"
                      class="project-gallery "
                      data-sizes="3333">
-                     <div class="pad1">
+                     <div class="no-vpad display-block">
                          <p class="no-margin">These designs were completed when I was on the Engineering team and design work was done ad-hoc as needed in an informal process. After getting assigned the ticket in a sprint, I discussed the feature requirements with internal stakeholders. I mockoped up some quick designs based on their specifications, and review them with those same stakeholders. </p><p>Most of the designs were straightforward, but the Job Efficiency Report required a lot of back and forth, and combining several different ideas into the final result. After getting their sign off, the designs where ready for me and a Full-Stack Engineer to implement. 
                     </p>
                      </div>

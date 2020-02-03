@@ -6,9 +6,8 @@
 					<div class="pad2 white-bg material">
 						<figure class="float-right center-text">
 							<img src="images/denise-nadal2017.jpg" alt="Photo of Denise Nadal" class="material round">
-							<figcaption>This is Denise!</figcaption>
 						</figure>
-						<h1 class="title h2 cursive">About Denise</h1>
+						<h1 class="card-title h2">About Denise</h1>
 						<p class="top-margin">Hi I'm Denise and I want to make the world a better place through design. I'm passionate about creating beautiful, delightful, and functional experiences that are accessible to anyone. Nothing makes me happier than seeing people enjoy using the sites and products I've built and designed.</p>
                         <p>I started my career in design as a freelance Illustrator, pivoted into Web Development, and dipped my toes in Front-end Engineering. Now I'm focusing on UX Design and Product Management because I'm happiest when I'm thinking about how to deliver value to customer and designing solutions that are functional, feasible and delightful. </p>
                         

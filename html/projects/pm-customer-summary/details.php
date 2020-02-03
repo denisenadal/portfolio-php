@@ -12,9 +12,10 @@ include('../../header.php');
     <section id="project-intro"
              class="container">
         <div class="flex-row outdent flex-vcenter">
-            <img src="summary-cover.png"
-                 alt="Design exploration for job and customer screens in the Pointman App"
-                 class="col5l col5m col4s col12x">
+            <div class="preview-image col5l col5m col4s col12x">
+                <img src="summary-cover.png"
+                 alt="Design exploration for job and customer screens in the Pointman App">
+            </div>
             <div class="col7l col7m col8s col12x">
                 <h1 class="project-title h1">Customer Search & Job Scheduling Experience </h1>
                 <p class="h4 project-date uiux">UI/UX Design <br>Fall 2018 - Fall 2019</p>

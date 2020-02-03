@@ -1,4 +1,9 @@
-TODO if content taller than windowheight, add to "normalscroll" list
+TODO 
+new css
+fix root url in header.php
+
+- finish up and send stuff over 
+
 
 
 TODO content page styles
@@ -12,17 +17,4 @@ TODO content page styles
  ======
 TODO debug contact form 
 
-
-
-.fp-section.active
-$(window).height()
-
-
-///resizer pseudo code
-var normalScrolls = [];
-
-on INIT & pageResize 
-    if ($('.fp-section.active').height() > $(window).height()){
-        var id = this.attr('id');
-        normalScrolls.push( '#'+id);
-    }
+#ff849a

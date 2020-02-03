@@ -321,8 +321,8 @@ span.small, p.small, li.small,caption.small{
     height: 100%
 }
 
-.display-inline-block {display: inline-block;}
-.display-block {display: block;}
+.display-inline-block {display: inline-block!important;}
+.display-block {display: block!important;}
 
 .mobile {display: none;}
 

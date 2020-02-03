@@ -34,7 +34,7 @@ blockquote {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   /* Change heading typefaces here */
-  font-family: "Raleway", sans-serif sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: 1.75rem;
   margin-bottom: 0;
   line-height: 125%; }
@@ -131,6 +131,10 @@ header nav a {
   position: relative;
   transition: 0.25s ease-in; }
 
+#main-header .title-cursive,
+.branding .title-cursive {
+  color: #ff1fa2; }
+
 @media screen and (max-width: 768px) {
   header nav a {
     padding: 1rem 0.5rem; }
@@ -175,12 +179,11 @@ header nav a {
     border: none;
     box-sizing: border-box;
     transition-duration: 0.5s;
-    background: #ff1fa2;
+    background: #630cff;
     color: #fef102; }
     #main-header .mobile-menu-btn:active {
       transition-duration: 0.1s;
-      background: #7CFFE6;
-      color: #ff1fa2; }
+      background: #ff1fa2; }
     #main-header .mobile-menu-btn span {
       top: 48%;
       left: 25%;
@@ -199,27 +202,22 @@ header nav a {
       #main-header .mobile-menu-btn span:after {
         bottom: -10px; }
 
-  #main-header .mobile-menu-btn.open {
-    background: #7CFFE6;
-    color: #ff1fa2; }
-    #main-header .mobile-menu-btn.open span {
-      background: transparent; }
-      #main-header .mobile-menu-btn.open span:before {
-        top: 0;
-        background: #ff1fa2;
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg); }
-      #main-header .mobile-menu-btn.open span:after {
-        top: 0;
-        background: #ff1fa2;
-        -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg); } }
+  #main-header .mobile-menu-btn.open span {
+    background: transparent; }
+    #main-header .mobile-menu-btn.open span:before {
+      top: 0;
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    #main-header .mobile-menu-btn.open span:after {
+      top: 0;
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); } }
 @media screen and (min-width: 769px) {
   header {
     position: fixed;
@@ -240,37 +238,38 @@ header nav a {
       position: relative; }
       header #logo-link ::before {
         content: '';
-        background: url("../images/swoosh1.png") no-repeat top left;
+        background: url("../images/swoosh3.png") no-repeat top left;
         background-size: 208px 67px;
         background-position: 0px 0px;
         position: absolute;
         top: -10px;
         left: -30px;
-        width: 200px;
+        width: 240px;
         height: 75px;
         z-index: -1; }
       header #logo-link .title-cursive {
         font-size: 1.4rem;
-        line-height: 1.6rem;
-        position: relative;
-        left: 1rem; }
+        line-height: 1.6rem; }
       header #logo-link .subtitle {
         color: #00a1a5;
         font-size: 1rem;
         line-height: 1.2rem;
         font-weight: 700;
         width: auto; }
-      header #logo-link:hover .title-cursive {
-        color: #00a1a5; }
-      header #logo-link:hover .subtitle {
+      header #logo-link:hover .subtitle,
+      header #logo-link:hover .title-cursive, header #logo-link:active .subtitle,
+      header #logo-link:active .title-cursive {
         color: #ff1fa2; }
     header nav a {
       font-weight: 700;
       color: #feffff;
       border-bottom: dotted 5px transparent; }
+      header nav a.active {
+        color: #00a1a5;
+        border-color: #00a1a5; }
       header nav a:hover {
         color: #ff1fa2;
-        border-bottom: dotted 5px #ff1fa2; } }
+        border-color: #ff1fa2; } }
 main p a,
 main li a {
   color: #630cff;
@@ -289,12 +288,11 @@ hr {
 
 figcaption,
 .caption {
-  color: #bebebe;
-  font-style: italic;
+  color: #686a8a;
   font-family: "Raleway", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.5rem 0; }
+  padding: 1.5rem 0rem; }
 
 .title,
 .subtitle {
@@ -307,8 +305,7 @@ figcaption,
 [class*="cursive"] {
   font-family: "Playfair Display", serif;
   text-transform: none;
-  font-weight: normal;
-  color: #ff1fa2; }
+  font-weight: normal; }
 
 h1:not(.title):not([class*="cursive"]),
 h2:not(.title):not([class*="cursive"]),
@@ -352,9 +349,9 @@ strong,
   font-size: 1.6rem;
   line-height: 1.6rem;
   letter-spacing: 0.01rem;
-  color: #ff1fa2;
+  color: #00a1a5;
   border-bottom: 3px solid #7CFFE6;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
   text-transform: none;
   font-family: "Playfair Display", serif;
   font-weight: 600; }
@@ -364,35 +361,14 @@ strong,
   font-family: "Raleway", sans-serif;
   position: relative;
   width: 100%; }
-  .section-title::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -1rem;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 125px 0 0;
-    border-color: #fef102 transparent transparent transparent;
-    z-index: -1; }
 
 main figure a:hover {
   background: none; }
   main figure a:hover img {
-    outline: 3px solid #ff1fa2;
-    transition: 0.25s ease-in; }
-  main figure a:hover figcaption {
-    color: #ff1fa2;
+    outline: 3px solid #630cff;
     transition: 0.25s ease-in; }
   main figure a:hover > figcaption + img {
     margin-top: 1rem; }
-main figure figcaption a {
-  color: #ff1fa2;
-  transition: 0.25s ease-in; }
-main figure figcaption a:hover {
-  background: #ff1fa2;
-  color: #fef102;
-  transition: 0.25s ease-in; }
 
 /*--------------------------------form styling */
 form,
@@ -446,6 +422,7 @@ textarea {
   font-weight: 600;
   text-transform: uppercase;
   text-indent: 0;
+  text-align: center;
   box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.2); }
 
 a.btn {
@@ -1165,10 +1142,10 @@ span.small, p.small, li.small, caption.small {
   height: 100%; }
 
 .display-inline-block {
-  display: inline-block; }
+  display: inline-block !important; }
 
 .display-block {
-  display: block; }
+  display: block !important; }
 
 .mobile {
   display: none; }

@@ -11,7 +11,7 @@ include('../../header.php');
 <main id="content-sections-wrap">
 <section id="project-intro" class="container">
 	<div class="flex-row outdent flex-vcenter">
-		<div class="col5l col5m col4s col12x ">
+		<div class="preview-image col5l col5m col4s col12x ">
 			<img src="dsu-set2.jpg" alt="DSU homepage on varions screens" class="" >
 		</div>
 		<div class="col7l col7m col8s col12x">
@@ -113,11 +113,11 @@ include('../../header.php');
 <section id="project-results" class="container top-margin4" >
 	<h2 class="h3">The Final <span class="uiux">Design</span><span class="dev">Product</span> </h2>
 	<div id="portal-results-gallery" class="project-gallery col12x" data-sizes="4432">
-		<div class="r">
+		<div class="display-block">
 			<a href="http://students.dixie.edu" class="btn top-margin2 right-margin2 bottom-margin2 display-block">Student Portal</a>
 			<a href="http://employees.dixie.edu" class="btn top-margin2 right-margin2 bottom-margin2 display-block">Employee Portal</a>
 			<a href="http://alumni.dixie.edu" class="btn top-margin2 right-margin2 bottom-margin2 display-block">Alumni Portal</a>
-		</div
+</div>
 		<figure class="project-img">
 			<a href="alumniPortalFinal.jpg">
 				<img src="alumniPortalFinal.jpg" alt="Desktop view of alumni portal">

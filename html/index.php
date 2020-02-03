@@ -9,8 +9,8 @@ include('header.php');
 <main id="content-sections-wrap">
 	<section id="intro-section" class="intro section">
 		<div class="container branding">
-			<div id="intro-bg"></div>
-			<div id="intro-bgtop"></div>
+			<div class="bg-layers bg-top-right"></div>
+			<div  class="bg-bottom-left bg-layers"></div>
 			<div class="intro-content">
 				<h1 class="title"><span class="title-cursive">Denise Nadal</span><br><span class="subtitle">Product & Design</span></h1>
 				<p class="motto">I love solving problems and helping people through good design</p>

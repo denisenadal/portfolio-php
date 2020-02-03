@@ -12,9 +12,10 @@ include('../../header.php');
     <section id="project-intro"
              class="container">
         <div class="flex-row outdent flex-vcenter">
-            <img src="mobileScreens.png"
-                 alt="mobile device"
-                 class="col5l col5m col4s col12x vertical">
+           <div class="preview-image col5l col5m col4s col12x vertical">
+                <img src="mobileScreens.png"
+                 alt="mobile device">
+           </div>
             <div class="col7l col7m col8s col12x">
                 <h1 class="project-title h1">Guided User Experiences</h1>
                 <p class="h4 project-date uiux">UI/UX Design <br>Fall 2019</p>

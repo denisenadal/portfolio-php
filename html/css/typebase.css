@@ -31,7 +31,7 @@ blockquote {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   /* Change heading typefaces here */
-  font-family: "Raleway", sans-serif sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-top: 1.75rem;
   margin-bottom: 0;
   line-height: 125%; }

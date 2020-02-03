@@ -12,9 +12,10 @@ include('../../header.php');
     <section id="project-intro"
              class="container">
         <div class="flex-row outdent flex-vcenter">
-            <img src="pitchDeck-Title.png"
-                 alt="design for subscription home maintenance service"
-                 class="col5l col5m col4s col12x ">
+            <div class="preview-image col5l col5m col4s col12x">
+                <img src="pitchDeck-Title.png"
+                 alt="design for subscription home maintenance service">
+            </div>
             <div class="col7l col7m col8s col12x">
                 <h1 class="project-title h1">Home Maintenance Service</h1>
                 <p class="h4 project-date uiux">Product Research & UI/UX Design <br>Jan 2020 </p>

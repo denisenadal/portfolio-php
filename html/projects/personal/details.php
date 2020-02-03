@@ -11,7 +11,9 @@ include('../../header.php');
 <main id="content-sections-wrap">
 <section id="project-intro" class="container">
 	<div class="flex-row outdent flex-vcenter">
-		<img src="personal-group.jpg" alt="personal portfolio site on various screen sizes" class="col5l col5m col4s col12x">
+		<div class="preview-image col5l col5m col4s col12x">
+			<img src="personal-group.jpg" alt="personal portfolio site on various screen sizes" >
+		</div>
 		<div class="col7l col7m col8s col12x">
 			<h1 class="project-title h1">Personal Portfolio & Branding</h1>
 			<p class="h4 project-date uiux">UIUX Design, 2016 & 2018 </p>

@@ -167,3 +167,25 @@ function pageInit (){
 		});
 	});
 };
+
+
+function setActiveGallery() {
+	$('.works-gallery').removeClass('active');
+
+	var hash = window.location.hash;
+	if (hash !== '#work/uiuxgallery2') {
+		hash = '#work/uiuxgallery1'
+	}
+	$('#work-section .section-menu a[href="' + hash + '"]').addClass('active');
+
+	if ($('#menu-icon').is(":visible")) {
+		resizeWorksGallery();
+	}
+	return;
+}
+
+function resizeWorksGallery() {
+	//fix work container hieght
+	var active_height = $('#work-section .works-gallery.active .row').innerHeight();
+	$('#work-section .fp-slidesContainer').css('height', active_height + '!important');
+}

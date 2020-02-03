@@ -11,7 +11,7 @@ include('../../header.php');
 <main id="content-sections-wrap">
 <section id="project-intro" class="container">
 	<div class="flex-row outdent flex-vcenter">
-		<div class="col5l col5m col4s col12x ">
+		<div class="preview-image col5l col5m col4s col12x ">
 			<img src="maps-mockups.jpg" alt="Campus Maps app on iMac screens" class="" >
 		</div>
 		<div class="col7l col7m col8s col12x">
