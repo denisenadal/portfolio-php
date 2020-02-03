@@ -5,7 +5,7 @@
     <div class="container ">
         <div class="flex-row flex-wrap outdent">
             <!-- TODO add in animation here-->
-            <div class="branding col12x col4s col5m col6l">
+            <div class="branding col12x col8s col8m col8l">
                 <h1 class="title"><span class="subtitle">Contact</span><br><span
                           class="title-cursive">Denise Nadal</h1>
                 <p class="content top-margin">Want to hire me? Send me a message
@@ -20,8 +20,7 @@
                        href="mailto:denise@denisenadal.com">denise@denisenadal.com</a>
                     if you want to chat!</p>
             </div>
-            <div class="col12x col8s col7m col6l">
-                <!-- TODO add in form processing-->
+        <!--    <div class="col12x col8s col7m col6l">
                 <form class="pad2 white-bg material form">
                     <h2 class="card-title no-margin">Message Denise</h2>
                     <div class="slim row">
@@ -86,7 +85,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
