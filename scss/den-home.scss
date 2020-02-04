@@ -7,6 +7,8 @@ body {
 }
 
 main {
+    overflow: hidden;
+    
     > section,
     > section.container {
         min-height: 100vh;
