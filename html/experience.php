@@ -40,10 +40,10 @@
                          alt="various screens">
                     <h3 class="h4">Features Designed</h3>
                     <ul>
-                        <li><a href="">Customer Screens</a></li>
-                        <li><a href="">Mobile First Navigation System</a></li>
-                        <li><a href="">Guided Technician Experience</a></li>
-                        <li><a href="">Job Scheduling Experience</a></li>
+                        <li>Customer Screens</li>
+                        <li>Mobile First Navigation System</li>
+                        <li>Guided Technician Experience</li>
+                        <li>Job Scheduling Experience</li>
                 </div>
             </div>
         </section>
@@ -82,10 +82,10 @@
                          alt="reporting dashboards and more">
                     <h3 class="h4">Features Designed</h3>
                     <ul>
-                        <li><a href="">Reporting Dashboards</a></li>
-                        <li><a href="">Job Quote & Invoicing System</a></li>
-                        <li><a href="">Customer Screens</a></li>
-                        <li><a href="">Invoice Templates</a></li>
+                        <li>Reporting Dashboards</li>
+                        <li>Job Quote & Invoicing System</li>
+                        <li>Customer Screens</li>
+                        <li>Invoice Templates</Customer></li>
                 </div>
             </div>
         </section>
