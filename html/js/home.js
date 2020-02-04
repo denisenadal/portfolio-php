@@ -1,3 +1,4 @@
+var denHomeMacyInstances = {};
 //================  home page init ======================//
 jQuery(document).ready(function ($) {
 	//init the page scroller
@@ -49,13 +50,15 @@ jQuery(document).ready(function ($) {
 		//after sections load
 		afterLoad: function (prev, next) {
 			toggleMenus(next);
-		}
+		},
 		// //exit a 
 		// onLeave: function (index, nextIndex, direction) {
 
 		// },
-		// afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
-		// },
+		afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+			//set height of section to current slide, rather than tallest slide
+			$('.fp-section.active .fp-slides').height( $('#'+slideAnchor.anchor).height() );
+		},
 		// //after leaving a slide
 		// onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {
 		// }
@@ -95,7 +98,6 @@ function toggleMenus(next){
 		$('#logo-link').css('visibility', 'visible');
 	}
 
-
 }
 
 function mainMenuHandlers() {
@@ -117,8 +119,8 @@ function mainMenuHandlers() {
 
 function pageInit() {
 	mainMenuHandlers();
-	macyWrapper('#uiuxgallery1 .row');
-	macyWrapper('#uiuxgallery2 .row');
+	denHomeMacyInstances.uiuxgallery1 = macyWrapper('#uiuxgallery1 .row');
+	denHomeMacyInstances.uiuxgallery2 = macyWrapper('#uiuxgallery2 .row');
 
 	$('#contact-section form').on('submit', function (event) {
 		event.preventDefault();

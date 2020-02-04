@@ -41,6 +41,7 @@ main {
 
 #contact-section {
     background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
+    overflow:hidden;
 }
 
 //=================   intro   ===================//
@@ -251,8 +252,7 @@ main {
 //=================   footer  ===================//
 
 #main-footer {
-    position: relative;
-    top: -60px;
+   display: none;
 }
 //=================   3rd party overrides  ===================//
 
