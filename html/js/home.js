@@ -49,13 +49,14 @@ jQuery(document).ready(function ($) {
 		},
 		//after sections load
 		afterLoad: function (prev, next) {
-			toggleMenus(next);
+			onLoadEvents(next);
 		},
 		// //exit a 
 		// onLeave: function (index, nextIndex, direction) {
 
 		// },
 		afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+			if(anchorLink.anchor !=='work'){ return;}
 			//set height of section to current slide, rather than tallest slide
 			$('.fp-section.active .fp-slides').height( $('#'+slideAnchor.anchor).height() );
 		},
@@ -86,7 +87,7 @@ function atTopOfSection(){
 	return (Math.abs(window.scrollY - offset.top) < 5);
 }
 
-function toggleMenus(next){
+function onLoadEvents(next){
 	var anchor = next.anchor;
 	$('#main-menu a').removeClass('active');
 	$('#main-menu a[data-menuanchor="' + anchor + '"]').addClass('active');
@@ -98,6 +99,7 @@ function toggleMenus(next){
 		$('#logo-link').css('visibility', 'visible');
 	}
 
+	// $('#loader').fadeOut();
 }
 
 function mainMenuHandlers() {

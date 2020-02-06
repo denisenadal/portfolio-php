@@ -238,7 +238,7 @@ header nav a {
       position: relative; }
       header #logo-link ::before {
         content: '';
-        background: url("../images/swoosh3.png") no-repeat top left;
+        background: url("../images/swoosh4.png") no-repeat top left;
         background-size: 208px 67px;
         background-position: 0px 0px;
         position: absolute;

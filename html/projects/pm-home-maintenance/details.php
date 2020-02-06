@@ -35,8 +35,8 @@ include('../../header.php');
                 <div class="col12x col12s col6m col7l col7xl">
                     <h2 class="h3 no-margin">Design Process</h2>
                     <p class="">
-                        The process for this project was fast and experinmental. We conducted several rounds of lean
-                        experiments to test hypotheseses about the market, as well as using several methods to collect
+                        The process for this project was fast and experimental. We conducted several rounds of lean
+                        experiments to test hypotheses about the market, as well as using several methods to collect
                         first-hand personal experiences to inform our thinking. Some of the methods we used were
                         in-depth interviews, guerilla surveys, paid surveys, casually interviewing everyone we know and
                         looking at general market data. We also conducted collaborative design sessions and workshops to

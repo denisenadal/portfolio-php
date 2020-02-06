@@ -20,7 +20,7 @@ include('../../header.php');
                 <h1 class="project-title h1">Guided User Experiences</h1>
                 <p class="h4 project-date uiux">UI/UX Design <br>Fall 2019</p>
                 <h2 class="h3">Summary</h2>
-                <p>Designing a new UI to create intuitive guided workflows so CSR's can schedule work faster and techs
+                <p>Designing a new UI to create intuitive guided workflows so Customer Service Rep.'s can schedule work faster and techs
                     can complete jobs faster.
                 </p>
             </div>
@@ -34,7 +34,7 @@ include('../../header.php');
                     <h2 class="h3 no-margin">Design Round 1</h2>
 
                     <p>
-                        Our Product Director challened the UX Team to explore new ways of allowing users to quickly
+                        Our Product Director challenged the UX Team to explore new ways of allowing users to quickly
                         discover common tasks without having to dig through onerous and dated navigation systems.
                     </p>
                     <p>

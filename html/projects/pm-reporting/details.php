@@ -37,7 +37,8 @@ include('../../header.php');
                      class="project-gallery "
                      data-sizes="3333">
                      <div class="no-vpad display-block">
-                         <p class="no-margin">These designs were completed when I was on the Engineering team and design work was done ad-hoc as needed in an informal process. After getting assigned the ticket in a sprint, I discussed the feature requirements with internal stakeholders. I mockoped up some quick designs based on their specifications, and review them with those same stakeholders. </p><p>Most of the designs were straightforward, but the Job Efficiency Report required a lot of back and forth, and combining several different ideas into the final result. After getting their sign off, the designs where ready for me and a Full-Stack Engineer to implement. 
+                         <p class="no-margin">These designs were completed when I was on the Engineering team and design work was done ad-hoc as needed in an informal process. After getting assigned the ticket in a sprint, I discussed the feature requirements with internal stakeholders. I mocked up some quick designs based on their specifications, and review them with those same stakeholders. </p>
+                         <p>Most of the designs were straightforward, but the Job Efficiency Report required a lot of back and forth, and combining several different ideas into the final result. After getting their sign off, the designs where ready for me and a Full-Stack Engineer to implement. 
                     </p>
                      </div>
                      <figure class="project-img no-mobile no-tablet">

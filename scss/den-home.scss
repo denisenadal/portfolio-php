@@ -45,6 +45,21 @@ main {
     background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
     overflow:hidden;
 }
+//=================   intro   ===================//
+//credit: https://codepen.io/NitrodeXXer/pen/zdEwgg
+.loader{
+	border:3px solid color('pink');
+	width:200px;
+	height:200px;
+	border-radius:50%; 
+	border-left-color: transparent;
+  border-right-color: transparent;
+	animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+}
+@keyframes rotate{
+	0%{transform:rotateZ(-360deg)}
+	100%{transform:rotateZ(0deg)}
+}
 
 //=================   intro   ===================//
 .bg-layers {

@@ -68,25 +68,13 @@ include('../../header.php');
                         screen.
                     </p>
                     <p>
-                        Between projects, I took to the initiative to start exploring screen layouts to show all
-                        relevant
-                        information on one screen. I started with really basic information design, based on the common
-                        workflow for a Customer Service Rep scheduling a new job for their organization.
+                        Between projects, I took to the initiative to start exploring screen layouts to show all  relevant information on one screen. I started with really basic information design, based on the common workflow for a Customer Service Rep scheduling a new job for their organization.
                     </p>
                     <p>
-                        Although the designs received positive feedback from stakeholders, they were tabled until
-                        Engineering had capacity to take on the project.
+                        Although the designs received positive feedback from stakeholders, they were tabled until Engineering had capacity to take on the project.
                     </p>
                     <p>
-                        Some time later, improving the user experience with Pointman became a company objective, and
-                        this
-                        project because the focus on the Product and Engineering Teams. During this round, I dived deep
-                        into
-                        exploring the customer journey and tested my designs against several key workflows. With
-                        guidance
-                        from the Product Director we were able to come up with a fresh modern design that made it easy
-                        to
-                        complete common tasks.
+                        Some time later, improving the user experience with Pointman became a company objective, and this  project because the focus on the Product and Engineering Teams. During this round, I dived deep into exploring the customer journey and tested my designs against several key workflows. With guidance from the Product Director we were able to come up with a fresh modern design that made it easy to complete common tasks.
                     </p>
                     <p>
                         Unfortunately, after completing the designs, the timeline to deliver the final project wasn't
@@ -117,13 +105,13 @@ include('../../header.php');
                         <figure class="project-img">
                             <a href="v2contact-alt.png"><img src="v2contact-alt.png"
                                      alt="a more radical design variant"></a>
-                            <figcaption>I was disatisfied with the existing design patterns, and explored some
+                            <figcaption>I was dissatisfied with the existing design patterns, and explored some
                                 alternatives</figcaption>
                         </figure>
                         <figure class="project-img">
                             <a href="v3contact-wires.png"><img src="v3contact-wires.png"
                                      alt="version 3 wireframe"></a>
-                            <figcaption>After being stalled, we reapproached the project and tried to simplify the
+                            <figcaption>After being stalled, we re-approached the project and tried to simplify the
                                 design some more.</figcaption>
                         </figure>
                         <figure class="project-img">
@@ -196,7 +184,7 @@ include('../../header.php');
                 <h2 class="h3 left-margin">Early Component Design</h2>
                 <div class="col12x col4s col4m col4l pad1">
                     <p class="no-margin">
-                        After validating the design against our use cases, I created several early wireframe designs of
+                        After validating the design against our use cases, I created several early wire-frame designs of
                         the various visual/interactive components that would be required, to discuss the project
                         feasibility with Engineering.
                     </p>

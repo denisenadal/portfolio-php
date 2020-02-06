@@ -32,14 +32,14 @@ include('../../header.php');
                 <div class="col12x col12s col8m col8l no-vpad  float-left uiux">
                     <p> This project was one of first two major projects that the UX Team undertook after joining the
                         Engineering Team in 2018. We started this project in late summer but struggled to form consensus
-                        amonst the design team on the best solution; I knew there had to be a better way to make
-                        decisions than spending days in a room agruing about details. The difficulties we encountered
+                        amongst the design team on the best solution; I knew there had to be a better way to make
+                        decisions than spending days in a room arguing about details. The difficulties we encountered
                         with our own design processes on these projects was what inspired me to learn more about modern
                         product design.
                     </p>
                     <p>
                         We started this project by getting a list of "requirements" (user requests) from our Customer
-                        Success team. Our SME's in house spend some time walking us through how they believed the users
+                        Success team. Our subject matter expert's in house spend some time walking us through how they believed the users
                         completed this task and how they should do it. We didn't have a robust (or any) user research
                         processes at the time, so we had to take our SME's word for it.
                     </p>
