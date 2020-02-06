@@ -244,7 +244,7 @@ main {
 
 #experience-section {
     .work-item {
-        margin: 1rem;
+        margin: 1rem .25rem;
 
         > div {
             margin-top: 2rem;
@@ -288,6 +288,7 @@ main {
 .fp-controlArrow.fp-next,
 .fp-controlArrow.fp-prev {
     border: none;
+    top:50vh;
 }
 .fp-controlArrow.fp-prev::after,
 .fp-controlArrow.fp-next::after {

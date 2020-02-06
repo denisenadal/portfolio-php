@@ -171,7 +171,7 @@ main {
   #skills-section .container {
     max-height: calc(100vh - 120px); } }
 #experience-section .work-item {
-  margin: 1rem; }
+  margin: 1rem .25rem; }
   #experience-section .work-item > div {
     margin-top: 2rem;
     padding: 1rem; }
@@ -195,7 +195,8 @@ main {
 
 .fp-controlArrow.fp-next,
 .fp-controlArrow.fp-prev {
-  border: none; }
+  border: none;
+  top: 50vh; }
 
 .fp-controlArrow.fp-prev::after,
 .fp-controlArrow.fp-next::after {
