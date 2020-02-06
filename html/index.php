@@ -6,7 +6,6 @@ $pageVars = array(
 );
 include('header.php');
 ?>
-	<!--<div id="loader"></div>-->
 <main id="content-sections-wrap">
 	<section id="intro-section" class="intro section">
 		<div class="container branding">

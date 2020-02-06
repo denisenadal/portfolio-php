@@ -58,7 +58,10 @@ jQuery(document).ready(function ($) {
 		afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
 			if(anchorLink.anchor !=='work'){ return;}
 			//set height of section to current slide, rather than tallest slide
-			$('.fp-section.active .fp-slides').height( $('#'+slideAnchor.anchor).height() );
+			$('.fp-section.active .fp-slides').height($('#' + slideAnchor.item.id).height() );
+
+			$('#loader').fadeOut(200);
+			$('#' + slideAnchor.item.id).delay(200).css('opacity',1)
 		},
 		// //after leaving a slide
 		// onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {
@@ -98,8 +101,6 @@ function onLoadEvents(next){
 	else {
 		$('#logo-link').css('visibility', 'visible');
 	}
-
-	// $('#loader').fadeOut();
 }
 
 function mainMenuHandlers() {
@@ -121,8 +122,8 @@ function mainMenuHandlers() {
 
 function pageInit() {
 	mainMenuHandlers();
-	denHomeMacyInstances.uiuxgallery1 = macyWrapper('#uiuxgallery1 .row');
-	denHomeMacyInstances.uiuxgallery2 = macyWrapper('#uiuxgallery2 .row');
+	denHomeMacyInstances.uiux1 = macyWrapper('#uiux1 .row');
+	denHomeMacyInstances.uiux2 = macyWrapper('#uiux2 .row');
 
 	$('#contact-section form').on('submit', function (event) {
 		event.preventDefault();

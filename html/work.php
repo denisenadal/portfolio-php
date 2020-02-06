@@ -1,11 +1,10 @@
 	<section id="work-section" class="work section fp-auto-height">
 		<div class="container">
             <h1 class="title section-title no-margin">Work</h1>
-        <!--<nav class="section-menu">
-				<a href="#work/uiuxgallery1" >2018 - current</a>
-				<a href="#work/uiuxgallery2" >2016 - 2018</a>
-			</nav> -->
-			<section id="uiuxgallery1" class="works-gallery slide" data-anchor="uiuxgallery1">
+            <div id="loader" class="container flex-row vcenter">
+                <div class="inner center-item"></div>
+            </div>
+			<section id="uiux1" class="works-gallery slide" data-anchor="uiuxgallery1">
 				<h2 class="screen-reader-text">2018 - current</h2>
 				<div class="row">
                     <div id="ui-pm-home-maintenance" class="work-item-wrapper">
@@ -60,7 +59,7 @@
 
 				</div>
             </section>
-            <section id="uiuxgallery2" class="works-gallery slide"data-anchor="uiuxgallery2">
+            <section id="uiux2" class="works-gallery slide"data-anchor="uiuxgallery2">
 				<h2 class="screen-reader-text">2016 - 2018</h2>
 				<div class="row side-outdent">
 					<div id="ui-dixie"  class="work-item-wrapper">

@@ -47,14 +47,21 @@ main {
 }
 //=================   intro   ===================//
 //credit: https://codepen.io/NitrodeXXer/pen/zdEwgg
-.loader{
-	border:3px solid color('pink');
-	width:200px;
-	height:200px;
-	border-radius:50%; 
-	border-left-color: transparent;
-  border-right-color: transparent;
-	animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+
+#loader {
+    min-height:calc( 100vh - 4rem);
+    opacity: 1;
+    position: absolute;
+
+    .inner {
+        border:3px solid color('pink');
+        width:200px;
+        height:200px;
+        border-radius:50%; 
+        border-left-color: transparent;
+        border-right-color: transparent;
+        animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+    }
 }
 @keyframes rotate{
 	0%{transform:rotateZ(-360deg)}
@@ -127,6 +134,11 @@ main {
 //=================   work ===================//
 
 #work-section {
+    .works-gallery {
+        opacity: 0;
+        transition:  opacity ease-in-out 1s;
+    }
+
     .work-item-wrapper {
         padding: 0.5rem;
     }
